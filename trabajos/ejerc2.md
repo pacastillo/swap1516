@@ -7,5 +7,5 @@ y ahora vamos a ver ***qué sale***
 
 un enlace a [google](http://www.google.com)
 
-inserto una imagen:  ![imagen](http://blogs.elpais.com/.a/6a00d8341bfb1653ef014e8a6cdbad970d-pi)
+inserto una imagen:  ![imagen](https://github.com/pacastillo/swap1516/blob/master/trabajos/imagen.png)
 
