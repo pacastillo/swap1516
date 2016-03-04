@@ -9,6 +9,8 @@ más texto
 
 ahora una **negrita**
 
+vamos a poner un [enlace](https://github.com/pacastillo/swap1516/blob/master/practica2/caballo.png)
+
 y una *cursiva*
 
 y una ***negrita con cursiva***
