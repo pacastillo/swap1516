@@ -13,5 +13,8 @@ vamos a poner un [enlace](https://github.com/pacastillo/swap1516/blob/master/pra
 
 y una *cursiva*
 
+vamos a poner unas imagen ![texto alternativo](https://github.com/pacastillo/swap1516/blob/master/practica2/caballo.png)
+
+
 y una ***negrita con cursiva***
 
