@@ -7,13 +7,13 @@
 
 Lo primero que debemos realizar es importar la clave del repositorio software:
 
-  *cd /tmp/*
+   *cd /tmp/*
 
    *wget http://nginx.org/keys/nginx_singing.key*
 
-    *apt-key add /tmp/nginx_singing.key/
+   *apt-key add /tmp/nginx_singing.key/*
 
-     *rm -f /tmp/nginx_singing.key*
+   *rm -f /tmp/nginx_singing.key*
 
 ![imagen](https://github.com/JaviMancilla/swap/blob/master/PRACTICAS/Practica_3/Capturas_nginx/1.PNG)
 
