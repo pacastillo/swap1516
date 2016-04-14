@@ -1,0 +1,538 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tema titulo="Tema 2: Alta Disponibilidad y Escalabilidad" cantidad_preguntas="91">
+
+<pregunta>
+<enunciado>¿Con que disponibilidad se conforman los sitios web?</enunciado>
+<opcionA>99.95</opcionA>
+<opcionB>99.9</opcionB>
+<opcionC>99.99</opcionC>
+<opcionD>B y C son correctas</opcionD>
+<solucion>D</solucion>
+</pregunta>
+
+<pregunta>
+<enunciado>¿Cuál no es un algoritmo, usado para decidir que máquina final servirá cada petición?</enunciado>
+<opcionA>Por tiempo de espera</opcionA>
+<opcionB>por ponderación</opcionB>
+<opcionC>Por prioridad</opcionC>
+<opcionD>Por turnos</opcionD>
+<solucion>A</solucion>
+</pregunta>
+
+<pregunta>
+	<enunciado>¿Cómo se consigue mejorar la disponibilidad?</enunciado>
+	<opcionA>Centrandonos unicamente en la Disponibilidad de red</opcionA>
+	<opcionB>Haciendo uso de subsistemas redundantes y monitorizarlos mejora la disponibilidad del sistema global</opcionB>
+	<opcionC>Haciendo trabajar 24 horas al dia los sistemas no es necesario ralizar ninguna mejora</opcionC>
+	<opcionD>Ninguna de las respuesta anteriores es correcta>
+	<solucion>B</solucion>
+</pregunta>
+
+<pregunta>
+	<enunciado>¿A qué se refiere la escalabilidad?</enunciado>
+	<opcionA>Se refiere a la optimización del hardware</opcionA>
+	<opcionB>Se refiere a la imposibilidad de un sistema de adaptarse a las situaciones de estres y de carga</opcionB>
+	<opcionC> se refiere a la capacidad de un sistema de manejar la carga, y el esfuerzo para adaptarse al nuevo nivel de carga</opcionC>
+	<opcionD>Ninguna de las respuesta anteriores es correcta>
+	<solucion>C</solucion>
+</pregunta>
+
+<pregunta>
+  <enunciado>¿Qué elemento suele fallar en un servidor? </enunciado>
+  <opcionA>La CPU</opcionA>
+  <opcionB>La memoria</opcionB>
+  <opcionC>Los discos y la refrigeración</opcionC>
+  <opcionD>Todas son correctas</opcionD>
+  <solucion>D</solucion>
+</pregunta>
+
+<pregunta>
+  <enunciado>¿A qué se quiere referir, cuando se menciona el escalado de ampliación vertical?</enunciado>
+  <opcionA>Añadir máquinas a algún subsistema</opcionA>
+  <opcionB>Incrementar la RAM</opcionB>
+  <opcionC>Incrementar la CPU</opcionC>
+  <opcionD>La respuesta B y C</opcionD>
+  <solucion>D</solucion>
+</pregunta>
+
+ <pregunta>
+   <enunciado>En cuestion de la disponibilidad, cuanto mas alta es en un sitio web :</enunciado>
+   <opcionA>Más probable a no sufrir caídas no-programadas </opcionA>
+   <opcionB>Más probable a sufrir caídas no-programadas</opcionB>
+   <opcionC>Más probable a no sufrir caídas programadas</opcionC>
+   <opcionD>Más probable a sufrir caídas programadas</opcionD>
+   <solucion>A</solucion>
+ </pregunta>
+ 
+ 
+ <pregunta>
+   <enunciado>¿Cómo podemos calcular la disponibilidad de un sistema?</enunciado>
+   <opcionA>As = Ac1 + (Ac1* Ac2 * Ac3 * ... Acn).</opcionA>
+   <opcionB>As = Ac1 * Ac2 * Ac3 * ... Acn.</opcionB>
+   <opcionC>As = Ac1 + Ac2 + Ac3 + ... Acn.</opcionC>
+   <opcionD>No puede calcularse</opcionD>
+   <solucion>B</solucion>
+ </pregunta>
+
+<pregunta>
+  <enunciado>¿Qué tipos de escalado engloba incrementar ampliar la memoria RAM?</enunciado>
+  <opcionA>Horizontal</opcionA>
+  <opcionB>Vertical</opcionB>
+  <opcionC>Virtual</opcionC>
+  <opcionD>Ninguna opción es correcta</opcionD>
+  <solucion>B</solucion>
+</pregunta>
+
+<pregunta>
+  <enunciado>¿Cuál de estas opciones tiene mayor impacto en escalabilidad?</enunciado>
+  <opcionA>Optimización del código</opcionA>
+  <opcionB>Optimización del producto</opcionB>
+  <opcionC>Optimización del hardware</opcionC>
+  <opcionD>Diseño</opcionD>
+  <solucion>D</solucion>
+</pregunta>
+
+<pregunta>
+<enunciado>1.-¿Cómo podemos calcular la disponibilidad de un sistema?</enunciado>
+<opcionA>As= Ac1 * Ac2 * Ac3 * ... Acn</opcionA>
+<opcionB>As= Ac1 + Ac2 + ... Acn</opcionB>
+<opcionC>As= Ac1 - Ac2 - ... Acn </opcionC>
+<opcionD>As = Lado * Lado </opcionD>
+<solucion>A</solucion>
+</pregunta>
+
+
+<pregunta>
+<enunciado>2.-Si replicamos un servidor con una disponibilidad de un 90%</enunciado>
+<opcionA>Se obtiene una mejora del 99%</opcionA>
+<opcionB>No hay ninguna mejora.</opcionB>
+<opcionC>Se obtiene una mejora del 9%</opcionC>
+<opcionD>Se obtiene una mejora del 1%</opcionD>
+<solucion>C</solucion>
+</pregunta>
+
+<pregunta>
+<enunciado>¿En cuál de los siguientes casos podremos afirmar que nuestra granja web tiene un 100% de disponibilidad?</enunciado>
+        <opcionA>Si nuestra granaja web no ha sufrido caidas de ningun tipo.</opcionA>
+        <opcionB>Si tenemos cuatro caidas programadas y ninguna no-programada.</opcionB>
+        <opcionC>Si tenemos una caida no-programadas y ninguna programada.</opcionC>
+        <opcionD>A y B son ciertas.</opcionD>
+        <solucion>D</solucion>
+</pregunta>
+
+
+
+<pregunta>
+<enunciado>Para aumentar considerablemente la disponibilidad de la red será necesario tener redundancia en:</enunciado>
+        <opcionA>La conexión a internet y los balanceadores.</opcionA>
+        <opcionB>La conexion a internet, los routers, cortafuegos y balanceadores.</opcionB>
+        <opcionC>La conexion a internet, los servidores y los routers, cortafuegos y balanceadores.</opcionC>
+        <opcionD> Con mejorar la conexión a internet será suficiente.</opcionD>
+    <solucion>C</solucion>
+</pregunta>
+
+<pregunta>
+<enunciado>Cual de los siguientes eventos no influye en el aumento del stress de un sistema:</enunciado>
+    <opcionA>Optimizacion del hardware.</opcionA>
+    <opcionB>Cambios en las aplicaciones.</opcionB>
+    <opcionC>Fallos o caídas de algunas partes del sistema</opcionC>
+    <opcionD>Incremento repentino del número de usuarios del sitio</opcionD>
+    <solucion>A</solucion>
+</pregunta>
+
+<pregunta>
+  <enunciado>Selecciona la opción correcta. Para obtener una alta disponibilidad, necesitamos...</enunciado>
+  <opcionA>Sólo debería haber ”tiempos de no-disponibilidad no programados” (y lo más cortos posibles).</opcionA>
+  <opcionB>Sólo debería haber ”tiempos de no-disponibilidad programados” (y lo más cortos posibles).</opcionB>
+  <opcionC>Tener un 90% de disponibilidad.</opcionC>
+  <opcionD>Evitar la réplica de los servidores</opcionD>
+  <solucion>B</solucion>
+</pregunta>
+
+<pregunta>
+  <enunciado>Selecciona la opción correcta. En función de la escalabilidad, ¿con qué se obtiene un mayor impacto?</enunciado>
+  <opcionA>Diseño.</opcionA>
+  <opcionB>Optimización del producto.</opcionB>
+  <opcionC>Optimización del hardware.</opcionC>
+  <opcionD>Optimización del código.</opcionD>
+  <solucion>A</solucion>
+</pregunta>
+
+<pregunta>
+ <enunciado>Para garantizar la alta disponibilidad en el diseño de un sistema, debemos tener redundancia en:</enunciado>
+ <opcionA>Routers, cortafuegos y balanceadores</opcionA>
+ <opcionB>Servidores</opcionB>
+ <opcionC>Conexión a internet</opcionC>
+ <opcionD>Todas las anteriores</opcionD>
+ <solucion>D</solucion>
+</pregunta>
+
+
+
+<pregunta>
+ <enunciado>Un ejemplo de escalado con ampliación horizontal sería:</enunciado>
+ <opcionA>Mejorar el ancho de banda de la conexión a internet</opcionA>
+ <opcionB>Duplicar el número de servidores web</opcionB>
+ <opcionC>Actualizar el sistema operativo del servidor web a la versión más reciente.</opcionC>
+ <opcionD>Aumentar la memoria RAM del servidor de datos</opcionD>
+ <solucion>B</solucion>
+</pregunta>
+
+<pregunta>
+	<enunciado> Solo debería haber:</enunciado>
+	<opcionA> Tiempos de no-disponibilidad programados y los más largos posibles. </opcionA>
+	<opcionB> Tiempos de no-disponibilidad no programados y los más largos posibles.</opcionB>
+	<opcionC> Tiempos de no-disponibilidad programados y los más cortos posibles.</opcionC>
+	<opcionD> Tiempos de no-disponibilidad no programados y los más cortos posibles.</opcionD>
+	<solucion> C </solucion>
+</pregunta>
+
+<pregunta>
+	<enunciado> Señala la afirmación erronea sobre el incremento del nivel de estrés.</enunciado>
+	<opcionA> Cambios en las aplicaciones. </opcionA>
+	<opcionB> Decremento repentino del número de usuarios al sitio. </opcionB>
+	<opcionC> Fallos o caidas de algunas partes del sistema. </opcionC>
+	<opcionD> Incremento del número de máquinas.</opcionD>
+	<solucion> B </solucion>
+</pregunta>
+
+<pregunta>
+  <enunciado>Mejor forma de mejorar la disponibilidad:</enunciado>
+  <opcionA>Utilizar elementos redundantes (2 CPU's, 2 memorias...)</opcionA>
+  <opcionB>Revisar diariamente el hardware del sistema abriendo los servidores.</opcionB>
+  <opcionC>Cambiar los elementos del sistema cada X tiempo antes de que se rompan.</opcionC>
+  <opcionD>Tenerlos trabajando a pocas revoluciones.</opcionD>
+  <solucion>A</solucion>
+</pregunta>
+<pregunta>
+  <enunciado>¿Qué es la escalabilidad?</enunciado>
+  <opcionA>El incremento del nivel de estrés.</opcionA>
+  <opcionB>El incremento del número de máquinas.</opcionB>
+  <opcionC>La capacidad de un sistema de manejar la carga y adaptarse a un nuevo nivel de carga.</opcionC>
+  <opcionD>Optimización del código para poder meter más máquinas en el sistema.</opcionD>
+  <solucion>C</solucion>
+</pregunta>
+
+<pregunta>
+  <enunciado>Cuántas horas está caido a la semana un servidor web si está replicado en otro servidor y tiene una disponinibilidad del 99.996%</enunciado>
+  <opcionA>1</opcionA>
+  <opcionB>2</opcionB>
+  <opcionC>3</opcionC>
+  <opcionD>4</opcionD>
+  <solucion>1</solucion>
+</pregunta>
+
+
+<pregunta>
+  <enunciado>Escalabilidad vertical consiste en:</enunciado>
+  <opcionA>Incrementar la RAM, la CPU, disco de un servidor..</opcionA>
+  <opcionB>Incrementar la RAM, la CPU, disco de un servidor.. y además en añadir más máquinas a algún subsistema (servidores web, servidores de datos..) </opcionB>
+  <opcionC>Añadir más máquinas a algún subsistema (servidores web, servidores de datos..)</opcionC>
+  <opcionD>Ninguna de las anteriores</opcionD>
+  <solucion>C</solucion>
+</pregunta>
+
+<pregunta>
+  <enunciado>¿Qué es la escala punto nueve</enunciado>
+  <opcionA>La escala usada para calcular la disponibilidad de un sistema</opcionA>
+  <opcionB>La escala usada para medir la potencia de un servidor web</opcionB>
+  <opcionC>La escala que usa Intel para calcular los gigahercios de sus procesadores</opcionC>
+  <opcionD>La escala que permite conocer el coste que tendrá nuestro servidor web</opcionD>
+  <solucion>A</solucion>
+</pregunta>
+<pregunta>
+  <enunciado>¿Que tipos de escalado existen?</enunciado>
+  <opcionA>Ampliación vertical.</opcionA>
+  <opcionB>Ampliación horizontal</opcionB>
+  <opcionC>Ampliación diagonal</opcionC>
+  <opcionD>Tanto la A como la B son correctas</opcionD>
+  <solucion>D</solucion>
+</pregunta>
+
+<pregunta>
+  <enunciado>¿Como conseguir que tu sistema tengo una alta disponibilidad?</enunciado>
+  <opcionA>Teniendo los sistemas encendidos todo el dia. No hace falta nada mas.</opcionA>
+  <opcionB>Centrandonos unica y exclusivamente en la "Disponibilidad de aplicación"</opcionB>
+  <opcionC>La disponibilidad de tu sistema no es importante. Con una disponibilidad media esta bien.</opcionC>
+  <opcionD>Usando subsistemas redundantes y teniendolos monitorizados</opcionD>
+  <solucion>D</solucion>
+</pregunta>
+
+
+<pregunta>
+  <enunciado>En un sistema escalable, cuando realizamos una ampliacion de equipos en el servicio web. ¿Debemos tener en cuenta el resto de servidores que dan otros servicios?</enunciado>
+  <opcionA>Depende de si tenemos un balanceador de caraga o un switch.</opcionA>
+  <opcionB>Si, porque pueden llegar a saturarse ante el incremento de equipos que le enviaran peticiones de información.</opcionB>
+  <opcionC>Si, porque puede que no cojan todos en nuestra granja web y tengamos que quitar algunos equipos que ofrecen otros servicios para ganar espacio.</opcionC>
+  <opcionD>No. Es completamente indiferente.</opcionD>
+  <solucion>B</solucion>
+</pregunta>
+
+<pregunta>
+  <enunciado>Cuál de los siguientes es un tiempo de no-disponibilidad "programado":</enunciado>
+  <opcionA>Ataque al sistema</opcionA>
+  <opcionB>Rotura de una máquina</opcionB>
+  <opcionC>Actualización del SO</opcionC>
+  <opcionD>Ninguna de las anteriores</opcionD>
+  <solucion>C</solucion>
+</pregunta>
+
+<pregunta>
+  <enunciado>Con tiempo de no-disponiblidad no programado nos referimos a:</enunciado>
+  <opcionA>El servidor no está disponible por actualizaciones del sistema operativo.</opcionA>
+  <opcionB>El servidor no está disponible por actualizaciones de aplicaciones.</opcionB>
+  <opcionC>El servidor no está disponible por actualizaciones del hardware.</opcionC>
+  <opcionD>El servidor no está disponible por cualquier causa no controlada</opcionD>
+  <solucion>D</solucion>
+</pregunta>
+
+<pregunta>
+  <enunciado> ¿Cuál de las siguientes mejoras es la que tiene menos impacto en la escalabilidad de un sistema?</enunciado>
+  <opcionA> Optimización del hardware. </opcionA>
+  <opcionB> Optimización del producto. </opcionB>
+  <opcionC> Optimización del código. </opcionC>
+  <opcionD> Diseño. </opcionD>
+  <solucion> A </solucion>
+</pregunta>
+
+<pregunta>
+  <enunciado>¿Cuantos tipos de escabilidad existen en un servidor Web?</enunciado>
+  <opcionA>3 (Vertical, Gradual y Horizontal).</opcionA>
+  <opcionB>1 (Incremental).</opcionB>
+  <opcionC>0 (La escabilidad no es un concepto de sistema Web).</opcionC>
+  <opcionD>2 (Vertical y Horizontal).</opcionD>
+  <solucion>D</solucion>
+</pregunta>
+<pregunta>
+  <enunciado>¿Que diferencia existe entre escabilidad Vertical y Horizontal?</enunciado>
+  <opcionA>La escabilidad Vertical es incrementar el hardware del servidor y escabilidad Horizontal es añadir máquinas a un subsistema de servidores.</opcionA>
+  <opcionB>La escabilidad Horizontal es incrementar el hardware del servidor y escabilidad Vertical es añadir máquinas a un subsistema de servidores.</opcionB>
+  <opcionC>No existe diferencia entre ambas porque es el mismo tipo de escabilidad</opcionC>
+  <opcionD>Ninguna, porque la escabilidad Horizontal no existe.</opcionD>
+  <solucion>A</solucion>
+</pregunta>
+
+<pregunta>
+<enunciado>Existen dos tipos de caídas o problemas de no-disponibilidad que son:</enunciado>
+<opcionA>Tiempo de no-disponibilidad externo y tiempo de no-disponibilidad interno.</opcionA>
+<opcionB>Tiempo de no-disponibilidad aceptado y tiempo de no-disponibilidad inesperado.</opcionB>
+<opcionC>Tiempo de no-disponibilidad activo y tiempo de no-disponibilidad pasivo.</opcionC>
+<opcionD>Tiempo de no-disponibilidad programado y tiempo de no-disponibilidad no programado.</opcionD>
+<solucion>D</solucion>
+</pregunta>
+
+
+<pregunta>
+<enunciado>Los tipos de escalabilidad que existen son:</enunciado>
+<opcionA>Escalabilidad vertical y escalabilidad horizontal.</opcionA>
+<opcionB>Escalabilidad ascendente y escalabilidad descendente.</opcionB>
+<opcionC>Sólo existe un tipo de escalabilidad llamada escalabilidad progresiva.</opcionC>
+<opcionD>Escalabilidad simple y escalabilidad compleja.</opcionD>
+<solucion>A</solucion>
+</pregunta>
+
+<pregunta>
+	<enunciado>¿Que se entiende por alta disponibilidad?</enunciado>
+	<opcionA>Cuando un sitio no está disponible.</opcionA>
+	<opcionB>Todas son correctas.</opcionB>
+	<opcionC>Capacidad de aceptar visitas las 24h todos los días.</opcionC>
+	<opcionD>Ninguna es correcta.</opcionD>
+	<solucion>C</solucion>
+</pregunta>
+<pregunta>
+	<enunciado>¿Que tipos de escalado hay?</enunciado>
+	<opcionA>Ampliación vertical.</opcionA>
+	<opcionB>Ampliación diagonal.</opcionB>
+	<opcionC>Ampliación horizontal.</opcionC>
+	<opcionD>Las respuestas A y C son correctas.</opcionD>
+	<solucion>D</solucion>
+</pregunta>
+
+<pregunta>
+  <enunciado>¿Como se consigue mejorar la disponibilidad?</enunciado>
+  <opcionA>usando sistemas redundantes y monitorizandolos.</opcionA>
+  <opcionB>si la disponibilidad es alta, bajar el ancho de banda.</opcionB>
+  <opcionC>llamando a batman.</opcionC>
+  <opcionD>cambiando los elementos hardware.</opcionD>
+  <solucion>A</solucion>
+</pregunta>
+
+<pregunta>
+  <enunciado>Los servidores deben de estar disponibles:</enunciado>
+  <opcionA>entre 3 y 5 dias por semana.</opcionA>
+  <opcionB>en horas laborales.</opcionB>
+  <opcionC>dos veces al mes.</opcionC>
+  <opcionD>Todo el tiempo que podamos.</opcionD>
+  <solucion>D</solucion>
+</pregunta>
+
+<pregunta>
+  <enunciado>¿Para que es útil la monitorización?</enunciado>
+  <opcionA>Para detectar problemas y determinar posibles mejoras del sitio web.</opcionA>
+  <opcionB>Para saber lo que esta haciendo el sistema en cualquier momento.</opcionB>
+  <opcionC>Para controlar el desarrollo de una acción o un suceso a través de uno o varios monitores.</opcionC>
+  <opcionD>Para poder gestionar nuestra máquina a través de un monitor.</opcionD>
+  <solucion>A</solucion>
+</pregunta>
+<pregunta>
+  <enunciado>¿Que hace un balanceador de carga?</enunciado>
+  <opcionA>Se encarga de bloquear el tráfico de red si el servidor esta sobrecargado.</opcionA>
+  <opcionB>Hace que llegue menos tráfico de red al servidor.</opcionB>
+  <opcionC>Reparte peticiones a los distintos servidores según el tráfico de la red.</opcionC>
+  <opcionD>Es un servidor con un software específico que analiza el tráfico de red.</opcionD>
+  <solucion>C</solucion>
+</pregunta>
+
+<pregunta>
+  <enunciado>¿De que depende el exito de una empresa?</enunciado>
+  <opcionA>Tener un servidor de base de datos</opcionA>
+  <opcionB>Tener una disponibilidad baja</opcionB>
+  <opcionC>Que los usuarios tenga buena experiencia al visitarla (web)</opcionC>
+  <opcionD>Que el servidor sea Apache y no Cherokee</opcionD>
+  <solucion>C</solucion>
+</pregunta>
+
+<pregunta>
+  <enunciado>¿Cual de estas opciones produce menos impacto en la escalabilidad de un sistema?</enunciado>
+  <opcionA>Optimización del código </opcionA>
+  <opcionB>Optimización del hardware </opcionB>
+  <opcionC>Diseño </opcionC>
+  <opcionD>Optimización del producto </opcionD>
+  <solucion>B</solucion>
+</pregunta>
+
+<pregunta>
+  <enunciado>1. ¿Qué significa disponibilidad? </enunciado>
+  <opcionA>Que el servidor acepte visitas 24/7</opcionA>
+  <opcionB>Poder acceder al servidor desde cualquier parte</opcionB>
+  <opcionC>Es la capacidad de un sistema de manejar la carga y el esfuerzo para adaptarse de nuevo </opcionC>
+  <opcionD>Todas son correctas</opcionD>
+  <solucion>A</solucion>
+</pregunta>
+
+<pregunta>
+  <enunciado>2. ¿Qué tipos de escalado existen? </enunciado>
+  <opcionA>Norte y Sur, dependiendo de su localización</opcionA>
+  <opcionB>Lento y Rápido, según lo que le cueste escalar</opcionB>
+  <opcionC>Este y Oeste, dependiendo de su localización</opcionC>
+  <opcionD>Vertical y Horizontal, dependiendo de lo que se incremente</opcionD>
+  <solucion>D</solucion>
+</pregunta>
+
+<pregunta>
+  <enunciado>¿Qué es la escalabilidad?</enunciado>
+  <opcionA>Cappacidad de elevar privilegios en un sistema.</opcionA>
+  <opcionB>Capacidad de un sistema de manejar la carga, y el esfuerzo para adaptarse al nuevo nivel de carga.</opcionB>
+  <opcionC>Capacidad de escalar sistemas montañosos.</opcionC>
+  <opcionD>Todas son correctas.</opcionD>
+  <solucion>B</solucion>
+</pregunta>
+<pregunta>
+  <enunciado>¿Qué significan las siglas NFS?</enunciado>
+  <opcionA>Need For Speed.</opcionA>
+  <opcionB>Not For Sale.</opcionB>
+  <opcionC>Night Fighter Squadron.</opcionC>
+  <opcionD>Network File System.</opcionD>
+  <solucion>D</solucion>
+</pregunta>
+
+<pregunta>
+  <enunciado>Si poseemos un sistema con 3 servidores de un 99 por ciento de disponibilidad, ¿Cuanto podrá estar caido el sistema en total aproximadamente?
+  </enunciado>
+  <opcionA>3 días.</opcionA>
+  <opcionB>7 días.</opcionB>
+  <opcionC>11 días.</opcionC>
+  <opcionD>15 días.</opcionD>
+  <solucion>C</solucion>
+</pregunta>
+
+<pregunta>
+  <enunciado>¿En que consiste el escalado vertical?</enunciado>
+  <opcionA>Hacer redundancia de las máquinas de los servicios de web.</opcionA>
+  <opcionB>Duplicar los componentes del sistema excepto el router.</opcionB>
+  <opcionC>Aumentar la CPU, la RAM y el disco de servidor.</opcionC>
+  <opcionD>La A y la B son correctas.</opcionD>
+  <solucion>C</solucion>
+</pregunta>
+
+<pregunta>
+  <enunciado>Señale la respuesta correcta</enunciado>
+  <opcionA>Ampliacion horizontal es añadir mas servidores, uno encima de otro.</opcionA>
+  <opcionB>Ampliación horizontal es incrementar la RAM, CPU, disco de un servidor.</opcionB>
+  <opcionC>Ampliación vertical es añadir máquinas a algún subsistema (servidores web, servidores de datos, etc).</opcionC>
+  <opcionD>Ampliación horizontal es añadir máquinas a algún subsistema (servidores web, servidores de datos, etc).</opcionD>
+  <solucion>D</solucion>
+</pregunta>
+<pregunta>
+  <enunciado>Señale cual de las siguientes opciones no incrementa el nivel de estrés</enunciado>
+  <opcionA>Fallos o caídas de algunas partes del sistema.</opcionA>
+  <opcionB>Incremento del número de máquinas.</opcionB>
+  <opcionC>Incremento repentino del número de usuarios del sitio.</opcionC>
+  <opcionD>Instalación de una réplica del sitio.</opcionD>
+  <solucion>D</solucion>
+</pregunta>
+
+<pregunta>
+  <enunciado>La forma de calcular la disponibilidad de un sistema se basa en la "escala punto nueve", lo habitual es referirlo al periodo de un año, y actualmente los grandes sitios web se conforman con una disponibilidad del:</enunciado>
+  <opcionA>99.9%</opcionA>
+  <opcionB>98.99%</opcionB>
+  <opcionC>99.99% y 99.9%</opcionC>
+  <opcionD>100% y 99%</opcionD>
+  <solucion>C</solucion>
+</pregunta>
+
+
+<pregunta>
+  <enunciado>Tipo de escalado en un servidor web:.</enunciado>
+  <opcionA>Ampliación vertical, que supone mejorar o incrementar alguna parte del hardware (RAM, CPU, disco de un servidor, etc) y Ampliación horizontal, que supone añadir máquinas a algún subsistema (servidores web, servidores de datos, etc).</opcionA>
+  <opcionB>Ampliación vertical, que supone añadir máquinas a algún subsistema (servidores web, servidores de datos, etc) y Ampliación horizontal, que supone mejorar o incrementar alguna parte del hardware (RAM, CPU, disco de un servidor,etc).</opcionB>
+  <opcionC>Ampliación vertical, que supone mejorar o incrementar alguna parte del hardware (RAM, CPU, disco de un servidor, etc).</opcionC>
+  <opcionD>Ninguna de las anteriores</opcionD>
+  <solucion>A</solucion>
+</pregunta>
+
+<pregunta>
+  <enunciado>¿Cuál de los siguientes factores provoca un menor impacto en la escabilidad?</enunciado>
+  <opcionA>El diseño.</opcionA>
+  <opcionB>La optimización del producto.</opcionB>
+  <opcionC>La optimización del hardware.</opcionC>
+  <opcionD>La optimización del código.</opcionD>
+  <solucion>c</solucion>
+</pregunta>
+
+<pregunta>
+  <enunciado>enunciado</enunciado>
+  <opcionA>primera opcion</opcionA>
+  <opcionB>segunda opcion</opcionB>
+  <opcionC>tercera opcion</opcionC>
+  <opcionD>cuarta opcion</opcionD>
+  <solucion>C</solucion>
+</pregunta>
+
+
+<pregunta>
+  <enunciado>La no disponibilidad no programada:</enunciado>
+  <opcionA>Es la que te señala una empresa para ofrecerte el servicio y garantizar la disponibilidad</opcionA>
+  <opcionB>Te la facilita la empresa para abaratar sus servicios y que resulte más economico para el cliente</opcionB>
+  <opcionC>La empresa no la sabe</opcionC>
+  <opcionD>La empresa no se la facilita al cliente</opcionD>
+  <solucion>C</solucion>
+</pregunta>
+<pregunta>
+  <enunciado>Un balanceado de carga eficiente es posible si</enunciado>
+  <opcionA>Se tiene una sóla máquina con el mejor hardware actual a la que repartirle el trabajo</opcionA>
+  <opcionB>Teniendo muchisimas máquinas con el 8086 y un balanceador hardware</opcionB>
+  <opcionC>Un balanceador hardware con la máquina de la opción A</opcionC>
+  <opcionD>Teniendo varios niveles de balanceado</opcionD>
+  <solucion>D</solucion>
+</pregunta>
+<pregunta>
+  <enunciado>El escalado...</enunciado>
+  <opcionA>Vertical añade maquinas al sistema</opcionA>
+  <opcionB>Vertical incrementa o mejora el hardware de un solo servidor</opcionB>
+  <opcionC>Horizontal incrementa o mejora el hardware de un sólo servidor</opcionC>
+  <opcionD>Vertical y horizontal no son tipos de escalado</opcionD>
+  <solucion>B</solucion>
+</pregunta>
+
+</tema>

@@ -1,0 +1,313 @@
+<!doctype html>
+<html lang="es">
+	<head>
+	<meta charset="utf-8">
+	<!--[if IE]>
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+	<![endif]-->
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Sistema de Ayuda al Aprendizaje, para la asignatura de SWAP">
+	<meta name="author" content="Carlos de la Torre">
+
+	<title>SWAP - Tests de Examen</title>
+
+	<!-- Bootstrap Core CSS -->
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+
+	<!-- Google Web Fonts -->
+	<link href="http://fonts.googleapis.com/css?family=Roboto+Condensed:300italic,400italic,700italic,400,300,700" rel="stylesheet" type="text/css">
+	<link href="http://fonts.googleapis.com/css?family=Oswald:400,700,300" rel="stylesheet" type="text/css">
+	<link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,700,300,600,800,400" rel="stylesheet" type="text/css">
+
+	<!-- CSS Files -->
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+	<style media="screen">
+		body{
+			text-align:center;
+			/*background-image: url("../resources/tela.jpg");*/
+			background-color: #cccccc;
+			background-repeat: repeat;
+			font:14px/22px 'Roboto Condensed', sans-serif;
+		}
+		/* conrtenedor principal */
+		#tablon{
+			margin-top: 10px;
+			margin-bottom: 10px;
+			background:#fff;
+			box-shadow: 0em 0em 1.5em 0.5em #888888;
+			-moz-box-shadow: 0em 0em 1.5em 0.5em #888888;
+			-webkit-box-shadow: 0em 0em 1.5em 0.5em #888888;
+		}
+
+		/* Header Area Styles Starts */
+		#header-area{
+			margin-top: 10px;
+		}
+			.header-top{
+				background:#252a2f;
+			}
+
+		/* Main Container Styles Starts */
+		#main-container{
+			background: #fff;
+			margin-bottom:0;
+		}
+			#opciones{
+
+			}
+
+			#opciones ol{
+				list-style-type: upper-alpha;
+			}
+
+		/* Footer Area Styles Starts */
+		#footer-area{
+			padding: 10px;
+			background:#444c53;
+		}
+
+		/* Buttons Area Styles Starts */
+		#botonera{
+			padding: 10px;
+		}
+
+		/* Main Menu Styles Starts */
+		#main-menu{
+			background:#00f;
+			/*background:#4bac52;*/
+		}
+		#main-menu.navbar{
+			margin:0;
+			padding:0;
+			border:none;
+			-webkit-border-radius:0;
+			   -moz-border-radius:0;
+					border-radius:0;
+		}
+			#main-menu .navbar-nav > li{
+			}
+			#main-menu .navbar-nav > li + li{
+			}
+			#main-menu .navbar-nav > li a{
+				color:#fff;
+				text-transform:uppercase;
+			}
+			#main-menu .navbar-nav > li > a:hover,
+			#main-menu .navbar-nav > li > a:focus,
+			#main-menu .navbar-nav > li.open a{
+				background:#252a2f;
+				color:#fff;
+			}
+				#main-menu .dropdown-menu{
+					background:#252a2f;
+					border:none;
+					padding:0;
+					-webkit-border-radius:0;
+					   -moz-border-radius:0;
+					        border-radius:0;
+					-webkit-box-shadow:none;
+					   -moz-box-shadow:none;
+					     box-shadow:none;
+				}
+					#main-menu .dropdown-menu li a{
+						color:#fff;
+						font-size:15px;
+						padding-top:6px;
+						padding-bottom:6px;
+						font-weight:normal;
+					}
+					#main-menu .dropdown-menu li:hover a{
+						background:#42484f;
+						text-decoration:none;
+					}
+						#main-menu .dropdown-inner {
+							display:table;
+							padding-bottom:10px;
+						}
+							#main-menu .dropdown-inner ul {
+								display:table-cell;
+							}
+							#main-menu .dropdown-inner .dropdown-header{
+								font-size:15px;
+								text-transform:uppercase;
+								color:#fff;
+								padding:15px 0 10px 15px;
+							}
+							#main-menu .dropdown-inner li a {
+								min-width:160px;
+								display:block;
+								padding:3px 20px;
+								clear:both;
+							}
+	</style>
+</head>
+	<body>
+		<!-- Tablón principal de la pagina Starts-->
+	<div id="tablon" class="col-md-offset-1 col-md-10">
+		<!-- Fila superior cabecera Starts-->
+			<div class="row">
+				<!-- Header Section Starts -->
+					<header id="header-area">
+						<!-- Main Menu Starts -->
+						<nav id="main-menu" class="navbar" role="navigation">
+							<div class="container">
+								<!-- Nav Header Starts -->
+								<div class="navbar-header">
+									<button type="button" class="btn btn-navbar navbar-toggle" data-toggle="collapse" data-target=".navbar-cat-collapse">
+										<span class="sr-only">Navegador</span>
+										<i class="fa fa-bars"></i>
+									</button>
+								</div>
+								<!-- Nav Header Ends -->
+								<!-- Navbar Cat collapse Starts -->
+								<div class="collapse navbar-collapse navbar-cat-collapse">
+									<ul class="nav navbar-nav">
+										<li><a href="#">Portada</a></li>
+									</ul>
+								</div>
+								<!-- Navbar Cat collapse Ends -->
+							</div>
+						</nav>
+						<!-- Main Menu Ends -->
+					</header>
+				<!-- Header Section Starts -->
+			</div>
+		<!-- Fila superior cabecera Ends-->
+		<!-- Fila central contenido Starts-->
+			<div id="main-container" class="row">
+				<div class="col-md-offset-3 col-md-6">
+					<h4 id="titulo" class="text-left">
+						<select id="orden_elegido" name="orden">
+							<option value="ordenado">En Orden</option>
+							<option value="aleatorio">Aleatorio</option>
+						</select>
+						<select id="tema_elegido" name="tema" onchange="cambioTema()">
+							<option value="1">Tema 1</option>
+							<option value="2">Tema 2</option>
+							<option value="3">Tema 3</option>
+							<option value="4">Tema 4</option>
+							<option value="5">Tema 5</option>
+							<option value="6">Tema 6</option>
+							<option value="7">Tema 7</option>
+							<option value="8">Tema 8</option>
+						</select>
+						<span id="contadorPreguntas"></span><span id="numTotalPreguntas"></span>
+					</h4>
+					<div id="pregunta" class="row">
+						<h4 id="enunciado"></h4>
+					</div>
+					<div id="opciones" class="row text-left">
+						<ol>
+							<li><input type="radio" name="opcion" value="A" onchange="muestraRespuesta()"><span id="opcionA"></span></li>
+							<li><input type="radio" name="opcion" value="B" onchange="muestraRespuesta()"><span id="opcionB"></span></li>
+							<li><input type="radio" name="opcion" value="C" onchange="muestraRespuesta()"><span id="opcionC"></span></li>
+							<li><input type="radio" name="opcion" value="D" onchange="muestraRespuesta()"><span id="opcionD"></span></li>
+						</ol>
+					</div>
+					<div class="row">
+						<h2 id="respuesta">La respuesta correcta es: <span id="solucion"></span></h2>
+					</div>
+					<div id="botonera" class="row text-right">
+						<!-- <button type="button" name="anterior" class="btn btn-md btn-info" onclick="anteriorPregunta()">Anterior</button> -->
+						<button type="button" name="siguiente" class="btn btn-md btn-info" onclick="nuevaPregunta()">Siguiente</button>
+					</div>
+				</div>
+			</div>
+		<!-- Fila central contenido Ends-->
+			<!-- Fila inferior pie Starts-->
+		<div class="row">
+			<!-- Footer Section Starts -->
+				<footer id="footer-area">
+					<!-- Starts -->
+						<p class="pull-left">&nbsp;&copy; 2015 Designed By <a href="https://www.sudano.net">Carlos de la Torre</a></p>
+						<br/><br/>
+					<!-- Ends -->
+				</footer>
+			<!-- Footer Section Ends -->
+		</div>
+	<!-- Fila inferior pie Ends-->
+</div>
+<!-- Tablón principal de la pagina Ends-->
+	<!-- JavaScript Files -->
+	<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	<script>
+	$(document).ready(function() {
+		nuevaPregunta();
+		actualizarNumPreguntasTema();
+	});
+
+	// esto es para llevar un contador de la pregunta en la que estamos
+	var aleatorio = 0;
+
+	function actualizarNumPreguntasTema(){
+		$.ajax({
+			type: "GET",
+			url: "https://raw.githubusercontent.com/pacastillo/swap1516/master/preguntas_test_2015-2016/tema" + $("#tema_elegido").val() + ".xml",
+			dataType: "xml",
+			success: function (datos) {
+				// Número total de preguntas
+				var num_preguntas_tema = $(datos).find('tema').attr('cantidad_preguntas');
+				$("#numTotalPreguntas").html( num_preguntas_tema );
+			}
+		});
+	}
+
+	function cambioTema(){
+		aleatorio = 0;
+		nuevaPregunta();
+		actualizarNumPreguntasTema();
+	}
+
+	function nuevaPregunta(){
+		$("#enunciado").empty();
+		$("#solucion").empty();
+		$("#opciones").find("span").empty();
+		$("#respuesta").hide();
+		$("#opciones").find("input:radio").prop("checked",false);
+		$.ajax({
+		    type: "GET",
+			//url: "https://raw.githubusercontent.com/elsudano/swap1415/master/Ejercicios_Clase/xml/tema" + $("#tema_elegido").val() + ".xml",
+			url: "https://raw.githubusercontent.com/pacastillo/swap1516/master/preguntas_test_2015-2016/tema" + $("#tema_elegido").val() + ".xml",
+		    dataType: "xml",
+		    success: function (datos) {
+				if($("#orden_elegido").val() == "ordenado"){
+					aleatorio++;
+				}else {
+					// para conseguir un numero aleatorio entero entre un rango concreto
+					aleatorio = Math.floor(
+						Math.random()*parseFloat(
+							$(datos).find('tema').attr('cantidad_preguntas')
+						)
+					);
+				}
+
+		        $(datos).find('pregunta').each(function (i) {
+					if (i==aleatorio) {
+						$("#enunciado").append($(this).find('enunciado').text());
+						$("#opcionA").append(" " + $(this).find('opcionA').text());
+						$("#opcionB").append(" " + $(this).find('opcionB').text());
+						$("#opcionC").append(" " + $(this).find('opcionC').text());
+						$("#opcionD").append(" " + $(this).find('opcionD').text());
+						$("#solucion").append(" " + $(this).find('solucion').text());
+					}
+		        });
+		    }
+		});
+		$("#contadorPreguntas").html("Pregunta " + (aleatorio+1) + " de ");
+	}
+
+	function muestraRespuesta(){
+		$("#respuesta").show();
+		var elegida = $.trim($("input[name=opcion]:checked").val().toUpperCase());
+		var correcta = $.trim($("#solucion").text().toUpperCase());
+		if (elegida === correcta){
+			$("#respuesta").css("color", "green");
+		}else {
+			$("#respuesta").css("color", "red");
+		}
+	}
+	</script>
+	</body>
+</html>
