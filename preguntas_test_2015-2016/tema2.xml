@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tema titulo="Tema 2: Alta Disponibilidad y Escalabilidad" cantidad_preguntas="91">
-
+ 
 <pregunta>
 <enunciado>¿Con que disponibilidad se conforman los sitios web?</enunciado>
 <opcionA>99.95</opcionA>
