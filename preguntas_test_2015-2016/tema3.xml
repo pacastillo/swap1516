@@ -2,6 +2,25 @@
 <tema titulo="Tema 3: La red de una Granja Web" cantidad_preguntas="84">
 
 <pregunta>
+  <enunciado>El eje principal de una red se denomina:</enunciado>
+  <opcionA>switch</opcionA>
+  <opcionB>backbone</opcionB>
+  <opcionC>hub</opcionC>
+  <opcionD>router</opcionD>
+  <solucion>B</solucion>
+</pregunta>
+
+<pregunta>
+  <enunciado>¿Cual de las siguientes afirmaciones es correcta?</enunciado>
+  <opcionA>A veces es interesante conectar el back-rail directamente a internet</opcionA>
+  <opcionB>El front-rail y el back-rail pueden cumplir la misma funcion</opcionB>
+  <opcionC>Un servidor de BD puede ser conectado en el front-rail</opcionC>
+  <opcionD>Un servidor multi-NIC está conectado tanto al front-rail cómo al back-rail</opcionD>
+  <solucion>D</solucion>
+</pregunta>
+
+
+<pregunta>
 
 <enunciado>¿Cuál no es un tipo de DMZ?</enunciado>
 
