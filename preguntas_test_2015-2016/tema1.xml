@@ -369,8 +369,7 @@ web a los usuarios finales.</opcionD>
 </pregunta>
 
 <pregunta>
-  <enunciado>¿Como se denomina al conjunto de servidores dedicados a
-servir contenido web a los usuarios finales?</enunciado>
+  <enunciado>¿Como se denomina al conjunto de servidores dedicados a servir contenido web a los usuarios finales?</enunciado>
   <opcionA>Granja Web</opcionA>
   <opcionB>Internet</opcionB>
   <opcionC>Servidor de desarrollo </opcionC>
@@ -479,8 +478,7 @@ que se esté ofreciendo</opcionB>
 </pregunta>
 
 <pregunta>
-  <enunciado>¿Cual es la principal solucion para un sitio web mal planificado?
-  </enunciado>
+  <enunciado>¿Cual es la principal solucion para un sitio web mal planificado? </enunciado>
   <opcionA>Usar un almacenamiento adecuado.</opcionA>
   <opcionB>Configurar cortafuegos eficaces.</opcionB>
   <opcionC>Aumentar el numero de maquinas que dan servicios.</opcionC>
@@ -516,7 +514,7 @@ que se esté ofreciendo</opcionB>
 
 
 <pregunta>
-  <enunciado>Una granja web es un conjunto de servidores dedicados a servir contenido web a los usuarios finales. Son sistemas muy complejos pero a su vez:/enunciado>
+  <enunciado>Una granja web es un conjunto de servidores dedicados a servir contenido web a los usuarios finales. Son sistemas muy complejos pero a su vez:</enunciado>
   <opcionA>Flexibles</opcionA>
   <opcionB>Funcionales y escalables</opcionB>
   <opcionC>Escalables y flexibles</opcionC>
