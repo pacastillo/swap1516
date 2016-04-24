@@ -236,6 +236,7 @@
 	$(document).ready(function() {
 		nuevaPregunta();
 		actualizarNumPreguntasTema();
+		agregaBotonesCalificacion();
 	});
 
 	// esto es para llevar un contador de la pregunta en la que estamos
@@ -298,6 +299,42 @@
 		$("#contadorPreguntas").html("Pregunta " + (aleatorio+1) + " de ");
 	}
 
+	function agregaBotonesCalificacion(){
+
+		var botones = "<p id='calificacion'>Califica esta pregunta: <a href='#' onclick='calificaPregunta(1)'>Positivo</a> / <a href='#' onclick='calificaPregunta(-1)'>Negativo</a></p>";
+
+		$("#respuesta").append(botones);
+
+
+	}
+
+	function calificaPregunta(valor){
+
+		var question_text = $("#enunciado").text();
+		var question_number = 0;
+		var subject = $("#tema_elegido").val();
+		var positive = (valor == 1) ? 1 : 0;
+		var negative = (valor == -1) ? 1 : 0;
+
+
+		$.ajax({
+		    type: 'POST',
+		    url: 'http://azure.ernesto.es/swap/rate.php',
+		    data: {
+		        'question_text': question_text,
+		        'question_number': question_number,
+		        'subject': subject,
+		        'positive': positive,
+		        'negative': negative,
+		    }
+		});
+
+		$("#calificacion").hide();
+
+	}
+
+
+
 	function muestraRespuesta(){
 		$("#respuesta").show();
 		var elegida = $.trim($("input[name=opcion]:checked").val().toUpperCase());
@@ -307,6 +344,7 @@
 		}else {
 			$("#respuesta").css("color", "red");
 		}
+		$("#calificacion").show();
 	}
 	</script>
 	</body>
