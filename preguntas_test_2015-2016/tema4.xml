@@ -603,7 +603,7 @@
   <opcionB>Mejora la disponibilidad</opcionB>
   <opcionC>Facilita el mantenimiento (arreglar o añadir máquinas sobre la marcha)</opcionC>
   <opcionD>Las tres respuestas anteriores son correctas</opcionD>
-  <solucion>D/solucion>
+  <solucion>D</solucion>
 </pregunta>
 <pregunta>
   <enunciado>¿Qué es un balanceador de carga?</enunciado>
