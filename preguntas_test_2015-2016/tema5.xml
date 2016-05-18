@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tema titulo="Tema 5: Medir prestaciones" cantidad_preguntas="71">
+<tema titulo="Tema 5: Medir prestaciones" cantidad_preguntas="70">
 
 <pregunta>
-<enunciado>¿Cuál es un patron de tráfico ?</enunciado>
+<enunciado>¿Cuál es un patron de tráfico?</enunciado>
 <opcionA>HTTP</opcionA>
 <opcionB>FTP</opcionB>
 <opcionC>Tienda web</opcionC>
@@ -38,7 +38,7 @@
 </pregunta>
 
 <pregunta>
-  <enunciado>¿En que consiste la prueba realizada a los servidores "Stress" ? </enunciado>
+  <enunciado>¿En que consiste la prueba realizada a los servidores Stress? </enunciado>
   <opcionA>Pruebas preliminares para comprobar que el sistema esta listo para los siguientes test</opcionA>
   <opcionB>Actividad creciente hasta detectar el punto de saturacion</opcionB>
   <opcionC>Para analizar el efecto de aplicar de forma continuada una carga por encima de la capacidad del sistema</opcionC>
