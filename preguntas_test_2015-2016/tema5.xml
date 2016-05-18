@@ -38,4 +38,42 @@
   <solucion>C</solucion>
 </pregunta>
 
+
+<pregunta>
+   <enunciado>Las conexiones por segundo...</enunciado>
+   <opcionA>Las aperturas y cierres de conexiones no consumen muchos recursos..</opcionA>
+   <opcionB>Es un factor no determinante, ya que es muy costoso.</opcionB>
+   <opcionC>Es un factor determinante, ya que abrir y cerrar conexiones HTTP resulta muy costoso.  </opcionC>
+   <opcionD>Ninguna de las anteriores</opcionD>
+   <solucion>C</solucion>
+ </pregunta>
+ 
+ <pregunta>
+   <enunciado>El rendimiento... </enunciado>
+   <opcionA>Hace referencia a la velocidad a la que el balanceador maneja y pasa el tráfico. </opcionA>
+   <opcionB>El paquete típico tiene un tamaño máximo de 100KB.</opcionB>
+   <opcionC>Se mide en bits por minuto.</opcionC>
+   <opcionD>Ninguna de las anteriores</opcionD>
+   <solucion>A</solucion>
+ </pregunta>
+
+ <pregunta>
+  <enunciado> FTP tiene como métrica más importante... </enunciado>
+  <opcionA>Rendimiento</opcionA>
+  <opcionB>Conexiones por segundo</opcionB>
+  <opcionC>Total de conexiones concurrentes</opcionC>
+  <opcionD>Otra</opcionD>
+  <solucion>A</solucion>
+</pregunta>
+
+<pregunta>
+  <enunciado>¿Qué prueba consiste en aplicar fuertes picos de carga durante cortos periodos?</enunciado>
+  <opcionA>Estrés</opcionA>
+  <opcionB>Humo</opcionB>
+  <opcionC>Carga</opcionC>
+  <opcionD>Sobrecarga</opcionD>
+  <solucion>D</solucion>
+</pregunta>
+
+
 </tema>
