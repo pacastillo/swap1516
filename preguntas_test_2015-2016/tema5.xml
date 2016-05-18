@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tema titulo="Tema 5: Medir prestaciones" cantidad_preguntas="8">
+<tema titulo="Tema 5: Medir prestaciones" cantidad_preguntas="23">
 
 
 <pregunta>
@@ -73,6 +73,156 @@
   <opcionC>Carga</opcionC>
   <opcionD>Sobrecarga</opcionD>
   <solucion>D</solucion>
+</pregunta>
+
+
+
+
+
+
+
+<pregunta>
+<enunciado>1.¿Cómo destaca Apache Benchmark? </enunciado>
+<opcionA>Como herramienta de simulación de carga.</opcionA>
+<opcionB>Como animal.</opcionB>
+<opcionC>Como herramienta de simulación de redes.</opcionC>
+<opcionD>Como herramienta de idioma.</opcionD>
+<solucion>A</solucion>
+</pregunta>
+
+<pregunta>
+<enunciado>2.Entre las diferentes pruebas que se hacen a los servidores
+para comprobar su funcionamiento, ¿en qué consiste la pruega de carga?</enunciado>
+<opcionA>Pruebas preliminares para comprobar que el sistema está listo para los test.</opcionA>
+<opcionB>Actividad creciente hasta detectar el punto de saturación.</opcionB>
+<opcionC>Cargas lo más parecidas a la real. Se ejecutan en periodos cortos, para 
+determinar los tiempos de respuesta que tendrán los usuarios.</opcionC>
+<opcionD>Aplicar fuertes picos de carga durante cortos periodos.</opcionD>
+<solucion>C</solucion>
+</pregunta>
+
+<pregunta>
+  <enunciado>Para el tráfico UPD el número de peticiones concurrentes no es un factor que afecte, ya que:</enunciado>
+  <opcionA>es un protocolo con conexión.</opcionA>
+  <opcionB>la conexión consta de tres pasos.</opcionB>
+  <opcionC>es un protocolo sin conexión.</opcionC>
+  <opcionD>UDP informa sobre el estado de la conexión.</opcionD>
+  <solucion>C</solucion>
+</pregunta>
+
+<pregunta>
+    <enunciado>¿Cuál de las siguientes no es un tipo de prueba para medir las prestaciones de un servidor web?</enunciado>
+    <opcionA>Smoke.</opcionA>
+    <opcionB>Micro Focus.</opcionB>
+    <opcionC>Capacity.</opcionC>
+    <opcionD>Stress.</opcionD>
+    <solucion>B</solucion>
+</pregunta>
+
+<pregunta>
+    <enunciado>¿Cual de los siguientes tipos de trafico genera más conexiones por segundo?</enunciado>
+    <opcionA>HTTP.</opcionA>
+    <opcionB>FTP.</opcionB>
+    <opcionC>Streaming.</opcionC>
+    <opcionD>Tienda web.</opcionD>
+    <solucion>A</solucion>
+</pregunta>
+
+<pregunta>
+  <enunciado>¿que  herramientas no se usan para comprobar el rendimiento de los servidores web?:</enunciado>
+  <opcionA>httperf</opcionA>
+  <opcionB>openWebLoad</opcionB>
+  <opcionC>blender</opcionC>
+  <opcionD>jMeter</opcionD>
+  <solucion>C</solucion>
+</pregunta>
+
+<pregunta>
+  <enunciado>¿ Cual es son  las métricas  que no hemos utilizado  
+  para medir las prestaciones de los dispositivos de balanceo?:</enunciado>
+  <opcionA>bits por segundos</opcionA>
+  <opcionB>conexiones por segundo</opcionB>
+  <opcionC>yottaFLOPS</opcionC>
+  <opcionD>número total de conexiones concurrentes</opcionD>
+  <solucion>C</solucion>
+</pregunta>
+
+<pregunta>
+ <enunciado>¿En que tipo de benchmark se genera actividad creciente hasta detectar el punto de saturación?</enunciado>
+ <opcionA>Carga (Load).</opcionA>
+ <opcionB>Estabilidad (Stability).</opcionB>
+ <opcionC>Capacity (Capacidad).</opcionC>
+ <opcionD>Humo (Smoke).</opcionD>
+ <solucion>C</solucion>
+</pregunta>
+
+
+
+<pregunta>
+ <enunciado>¿Cual de estas herramientas NO es un benchmark del rendimiento de servidores?</enunciado>
+ <opcionA>Apache Benchmark.</opcionA>
+ <opcionB>httperf</opcionB>
+ <opcionC>OpenWebLoad</opcionC>
+ <opcionD>BenchLoad</opcionD>
+ <solucion></solucion>
+</pregunta>
+
+<pregunta>
+   <enunciado>el texto del enunciado</enunciado>
+   <opcionA>primera opcion</opcionA>
+   <opcionB>segunda opcion</opcionB>
+   <opcionC>tercera opcion</opcionC>
+   <opcionD>cuarta opcion</opcionD>
+   <solucion>C</solucion>
+</pregunta>
+
+<pregunta>
+  <enunciado> 
+     ¿Cual de las siguientes afirmaciones correponde al tipo de tráfico "tienda web"? </enunciado>
+  <opcionA> El numero de conexiones para este tipo de tráfico es muy bajo comparado con la cantidad de información enviada. </opcionA>
+  <opcionB> Consume ancho de banda intensivamente y genera muchas conexiones por segundo. </opcionB>
+  <opcionC> No se necesita un alto ancho de banda ni hay demasiadas conexiones por segundo. </opcionC>
+  <opcionD> Consume el ancho de banda máximo rápidamente. </opcionD>
+  <solucion> C </solucion>
+</pregunta>
+
+<pregunta>
+  <enunciado> Según la siguiente definición:
+    "Actividad creciente hasta detectar el punto de saturación."
+    ¿A que tipo de prueba se corresponde? 
+  </enunciado>
+  <opcionA> Carga (Load)</opcionA>
+  <opcionB> Capacidad (Capacity)</opcionB>
+  <opcionC> Sobrecarga (Overload)</opcionC>
+  <opcionD> Estrés (Stress)</opcionD>
+  <solucion> B </solucion>
+</pregunta>
+
+<pregunta>
+  <enunciado>¿Cuáles de estas opciones no influyen en la cantidad de sesiones de usuario TCP que puede manejar el balanceador al mismo tiempo?</enunciado>
+  <opcionA>Memoria.</opcionA>
+  <opcionB>Procesador.</opcionB>
+  <opcionC>Alimentación.</opcionC>
+  <opcionD>Ninguna de las anteriores.</opcionD>
+  <solucion>C</solucion>
+</pregunta>
+<pregunta>
+  <enunciado>¿En qué se mide el rendimiento de un Balanceador de Carga?</enunciado>
+  <opcionA>En Megabytes por segundo.</opcionA>
+  <opcionB>En Megabytes por minuto.</opcionB>
+  <opcionC>En bits por minuto.</opcionC>
+  <opcionD>En bits por segundo.</opcionD>
+  <solucion>D</solucion>
+</pregunta>
+
+<pregunta>
+  <enunciado> Sobre el  jumboframe </enunciado>
+  <opcionA>Solución dada al verse aumentado el peso de las webs. Aumenta por 8 el payload lo que implica que se tarda 8 veces menos en servirse la página.</opcionA>
+  
+  <opcionB>Solución dada al verse reducido el peso de las webs. Reduce por 8 el payload lo que implica que se tarda 8 veces menos en servirse la página.</opcionB>
+  <opcionC>Solución dada al verse aumentado el peso de las webs. Reduce por 8 el payload lo que implica que se tarda 8 veces más en servirse la página.</opcionC>
+  <opcionD><Solución dada al verse reducido el peso de las webs. Reduce por 8 el payload lo que implica que se tarda 8 veces más en servirse la página./opcionD>
+  <solucion>A</solucion>
 </pregunta>
 
 
