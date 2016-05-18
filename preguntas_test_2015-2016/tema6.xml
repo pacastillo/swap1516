@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tema titulo="Tema 6: Asegurar el sistema web" cantidad_preguntas="84">
+<tema titulo="Tema 6: Asegurar el sistema web" cantidad_preguntas="40">
 
 <pregunta>
 <enunciado>¿Cuál es la instrucción o instrucciones para bloquear todas las conexiones?</enunciado>

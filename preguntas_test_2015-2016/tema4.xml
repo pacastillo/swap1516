@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tema titulo="Tema 4: Balanceo de carga" cantidad_preguntas="84">
+<tema titulo="Tema 4: Balanceo de carga" cantidad_preguntas="83">
 
 <pregunta>
 <enunciado>¿Cuál no es una funcionalidad de los balanceadores hardware?</enunciado>
