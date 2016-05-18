@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tema titulo="Tema 5: Medir prestaciones" cantidad_preguntas="5">
+<tema titulo="Tema 5: Medir prestaciones" cantidad_preguntas="2">
 
 <pregunta>
 <enunciado>¿Cuál es un patron de tráfico ?</enunciado>
@@ -11,30 +11,12 @@
 </pregunta>
 
 <pregunta>
-<enunciado>¿Cuál no es un paso para establecer una conexión HTTP?</enunciado>
-<opcionA>Inicio conexión TCP</opcionA>
-<opcionB>Reenvío de archivo</opcionB>
-<opcionC>Petición de archivo</opcionC>
-<opcionD>Archivo recibido</opcionD>
-<solucion>B</solucion>
-</pregunta>
-
-<pregunta>
-	<enunciado>¿Qué versión HTTP permite obtener varios objetos durante una sesión abierta con una sola conexión?</enunciado>
-	<opcionA>HTTP 2.3</opcionA>
-	<opcionB>HTTP 1.0</opcionB>
-	<opcionC>HTTP 1.1</opcionC>
-	<opcionD>HTTP 2.0</opcionD>
-	<solucion>C</solucion>
-</pregunta>
-
-<pregunta>
-	<enunciado>¿En qué se mide la velocidad a la que el balanceador maneja y pasa el tráfico?</enunciado>
-	<opcionA>Megas/segundo.</opcionA>
-	<opcionB>Gigabytes/minuto.</opcionB>
-	<opcionC>Bits/segundo.</opcionC>
-	<opcionD>Ninguna de las anteriores es correcta.</opcionD>
-	<solucion>C</solucion>
+  <enunciado>¿Que ocurre si se alcanza el limite de trafico de red en un sistema?</enunciado>
+  <opcionA>Los tiempos de respuesta HTTP aumentan</opcionA>
+  <opcionB>No imposibilita la conexion , pero degrada el tiempo de respuesta</opcionB>
+  <opcionC>Los tiempos de respuesta HTTP se degradan completamente , imposibilitando la conexion</opcionC>
+  <opcionD>Los tiempos de respuesta no varian , pero imposibilita la conexion</opcionD>
+  <solucion>C</solucion>
 </pregunta>
 
 
