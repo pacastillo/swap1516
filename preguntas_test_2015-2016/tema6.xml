@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tema titulo="Tema 6: Asegurar el sistema web" cantidad_preguntas="84">
+
+<pregunta>
+<enunciado>¿Cuál es la instrucción o instrucciones para bloquear todas las conexiones?</enunciado>
+<opcionA>iptables -P INPUT DROP</opcionA>
+<opcionB>iptables -P FORWARD DROP</opcionB>
+<opcionC>iptables -P OUTPUT DROP</opcionC>
+<opcionD>Todas son correctas</opcionD>
+<solucion>D</solucion>
+</pregunta>
+
+<pregunta>
+<enunciado>¿Qué ataque no puede evitar el balanceador?</enunciado>
+<opcionA>TCP SYN</opcionA>
+<opcionB>Ping of death</opcionB>
+<opcionC>Todas son correctas</opcionC>
+<opcionD>IP spoofing</opcionD>
+<solucion>C</solucion>
+</pregunta>
+
+<pregunta>
+   <enunciado>¿ Cual de estas funciones no realiza el cortafuegos ?</enunciado>
+   <opcionA>Bloquear y filtrar paquetes </opcionA>
+   <opcionB>Detectar y eliminar virus</opcionB>
+   <opcionC>Control del tráfico de red a nivel de protocolo de red(TCP o UDP) </opcionC>
+   <opcionD>Controlar protocolos de aplicación</opcionD>
+   <solucion>B</solucion>
+ </pregunta>
+ 
+ <pregunta>
+   <enunciado>Como politica de seguridad, ¿Qué se suele utilizar en el proceso de autentificación?  </enunciado>
+   <opcionA>Un escáner de retina, huella dactilar o ADN . </opcionA>
+   <opcionB>Una clave o PIN</opcionB>
+   <opcionC>Una tarjeta física que incluirá la clave </opcionC>
+   <opcionD>Todas son correctas</opcionD>
+   <solucion>D</solucion>
+ </pregunta>
+
+ <pregunta>
+<enunciado>1.¿A qué nos referimos con Integridad cuando hablamos de asegurar el sistema web? </enunciado>
+<opcionA>Los mensajes enviados deben ser exactamente los recibidos.</opcionA>
+<opcionB>Las comunicaciones deben ser secretas.</opcionB>
+<opcionC>La comunicación debe estar disponibleen el momento que se requiera.</opcionC>
+<opcionD>Ninguna de las anteriores.</opcionD>
+<solucion>A</solucion>
+</pregunta>
+
+<pregunta>
+<enunciado>2.¿Cuál es la función de usar un cortafuegos?</enunciado>
+<opcionA>Ninguna.</opcionA>
+<opcionB>Proteger el sistema de accesos indebidos.</opcionB>
+<opcionC>Parar las llamas cuando el ordenador se caliente demasiado.</opcionC>
+<opcionD>No podemos usar cortafuegos.</opcionD>
+<solucion>B</solucion>
+</pregunta>
+
+<pregunta>
+    <enunciado>Cual es la mejor manera para asegurar seguridad a nivel de administracion?</enunciado>
+    <opcionA>tener ninguna cuenta de administrador</opcionA>
+    <opcionB>tener mas cuentas de administrador con diferentes tareas</opcionB>
+    <opcionC>acceder de VPN</opcionC>
+    <opcionD>tener cuentas de servicios</opcionD>
+    <solucion>C</solucion>
+</pregunta>
+<pregunta>
+    <enunciado>Porque serìa mejor tener un sistema de proteccion de mas niveles?</enunciado>
+    <opcionA>Para complicarle la tarea de acceder a los datos a un hacker y para detectarle en tiempo</opcionA>
+    <opcionB>Para que se aproveche mejor la arquitectura escalable de los servidores</opcionB>
+    <opcionC>Para que la tarea de asegurar proteccion se pueda compartir entre mas personas</opcionC>
+    <opcionD>Para mitigar mejor ataques DDoS</opcionD>
+    <solucion>A</solucion>
+</pregunta>
+<pregunta>
+    <enunciado>Cual de los siguientes no se usa para seguridad a nivel fisico?</enunciado>
+    <opcionA>Cerradura de seguridad al sitio de ubicacion de servidores</opcionA>
+    <opcionB>Vigilancia mediante CCTV</opcionB>
+    <opcionC>Contraseñas de BIOS y consola</opcionC>
+    <opcionD>Cuentas de Servicios</opcionD>
+    <solucion>D</solucion>
+</pregunta>
+<pregunta>
+    <enunciado>Una cuenta de administrador representa un fallo de seguridad si:</enunciado>
+    <opcionA>se renombra y se cambia la contraseña</opcionA>
+    <opcionB>al cambiar de administrador fisico, no se actualizan el sistema operativo</opcionB>
+    <opcionC>se ejecutan servicios como root o superusuario</opcionC>
+    <opcionD>se disfruta de un sistema da autenticacion en dos etapas (como con codigo por SMS o aplicacion)</opcionD>
+    <solucion>C</solucion>
+</pregunta>
+<pregunta>
+    <enunciado>Cual seria la mejor configuracion por defecto de un cortafuego por iptable?</enunciado>
+    <opcionA>denegar todas las comunicacciones (INPUT/OUTPUT/FORWARD DROP) y luego abrir puertos especificos</opcionA>
+    <opcionB>Permitir todas las comunicaciones (INPUT/OUTPUT/FORWARD DROP) y luego cerrar los puertos no deseados</opcionB>
+    <opcionC>Permitir PING a todas las maquinas de la granja</opcionC>
+    <opcionD>Cerrar el puerto 80 para que no puedan llegar ataques desde internet</opcionD>
+    <solucion>A</solucion>
+</pregunta>
+
+<pregunta>
+  <enunciado>Las contraseñas de BIOS y de consola son un punto a tener en cuenta en el nivel...</enunciado>
+  <opcionA>Pregunta trampa, a la BIOS no se le puede poner contraseña</opcionA>
+  <opcionB>De administrador</opcionB>
+  <opcionC>Físico</opcionC>
+  <opcionD>De red</opcionD>
+  <solucion>C</solucion>
+</pregunta>
+
+<pregunta>
+  <enunciado>¿Cual de los siguientes no es un objetivo de seguridad?</enunciado>
+  <opcionA>Integridad</opcionA>
+  <opcionB>Confidencialidad</opcionB>
+  <opcionC>Disponibilidad</opcionC>
+  <opcionD>Responsabilidad</opcionD>
+  <solucion>D</solucion>
+</pregunta>
+
+<pregunta>
+  <enunciado>¿Cuáles son los diferentes niveles de seguridad?</enunciado>
+  <opcionA>Seguridad a nivel físico y de red</opcionA>
+  <opcionB>Seguridad a nivel de administrador</opcionB>
+  <opcionC>Cuentas de servicios o aplicaciones</opcionC>
+  <opcionD>Todas las anteriores son correctas</opcionD>
+  <solucion>D</solucion>
+</pregunta>
+
+<pregunta>
+  <enunciado>¿Qué prácticas de seguridad se recomiendan en una granja web?</enunciado>
+  <opcionA>Copias de seguridad</opcionA>
+  <opcionB>Máquinas clonadas</opcionB>
+  <opcionC>Imágenes de instalación de los servidores</opcionC>
+  <opcionD>La A y C son correctas</opcionD>
+  <solucion>D</solucion>
+</pregunta>
+
+<pregunta>
+  <enunciado>La forma más usual de ataque a cualquier sistema es mediante un ataque..</enunciado>
+  <opcionA>A nivel físico</opcionA>
+  <opcionB>A traves de cuentas de administrador</opcionB>
+  <opcionC>A una conexión de red</opcionC>
+  <opcionD>A traves de cuentas de servicios</opcionD>
+  <solucion>C</solucion>
+</pregunta>
+
+<pregunta>
+  <enunciado> ¿Cuál de los siguientes es el procedimiento de autenticación más efectivo? </enunciado>
+  <opcionA> Una clave o PIN. </opcionA>
+  <opcionB> Un escáner de retina, huella dactilar o ADN. </opcionB>
+  <opcionC> Todos son igual de seguros. </opcionC>
+  <opcionD> Una tarjeta física que incluirá la clave. </opcionD>
+  <solucion> B </solucion>
+</pregunta>
+
+<pregunta>
+  <enunciado> ¿Cuál de los siguientes no es un beneficio del cortafuegos? </enunciado>
+  <opcionA> Evita el consumo excesivo de recursos, reduciendo el tráfico global que un servidor recibirá. </opcionA>
+  <opcionB> Oculta los servidores finales a otras redes. </opcionB>
+  <opcionC> Protege los servidores de múltiples ataques. </opcionC>
+  <opcionD> Hace visible información de los servidores a otras redes. </opcionD>
+  <solucion> D </solucion>
+</pregunta>
+
+<pregunta>
+<enunciado>¿Qué entendemos por "cortafuegos" en Sistemas Webs?</enunciado>
+<opcionA>Un cortafuegos se activa en caso de incendio del sistema.</opcionA>
+<opcionB>Un cortafuegos protege el sistema de accesos indebidos.</opcionB>
+<opcionC>Los sistemas webs no poseen cortafuegos.</opcionC>
+<opcionD>Un cortafuegos deja acceder a todos los usuarios sin necesidad de identificación.</opcionD>
+<solucion>B</solucion>
+</pregunta>
+
+
+<pregunta>
+<enunciado>En cuanto a procedimientos de identificación lo mejor es:</enunciado>
+<opcionA>Una PIN de 4 dígitos como mucho.</opcionA>
+<opcionB>Un escáner de retina, huella dactilar o ADN.</opcionB>
+<opcionC>Una clave alfanumérica fácil de recordar.</opcionC>
+<opcionD>Cualquiera de las anteriores ya que todas son súper efectivas.</opcionD>
+<solucion>B</solucion>
+</pregunta>
+
+<pregunta>
+	<enunciado>¿Qué definen los privilegios de uso?</enunciado>
+	<opcionA>Acciones que pueden llevar a cabo cada tipo de usuario correctamente identificado.</opcionA>
+	<opcionB>Beneficios que tienen ciertos usuarios.</opcionB>
+	<opcionC>Comprueba si u usuario es reconocido.</opcionC>
+	<opcionD>Dectecta si un atacante puede entrar en nuestra granja.</opcionD>
+	<solucion>A</solucion>
+</pregunta>
+
+<pregunta>
+	<enunciado>¿de que protege el cortafuegos?</enunciado>
+	<opcionA>De accesos al sistema operativo.</opcionA>
+	<opcionB>De incendios en la red.</opcionB>
+	<opcionC>De accesos indebidos.</opcionC>
+	<opcionD>De popUps-</opcionD>
+	<solucion>C</solucion>
+</pregunta>
+
+<pregunta>
+	<enunciado>¿Para que sirve un cortafuegos?</enunciado>
+	<opcionA>Todas son correctas.</opcionA>
+	<opcionB>No hay ninguna correcta.</opcionB>
+	<opcionC>Un cortafuegos protege el sistema de accesos indebidos.</opcionC>
+	<opcionD>Un cortafuegos sirve para crear archivos.</opcionD>
+	<solucion>C</solucion>
+</pregunta>
+<pregunta>
+	<enunciado>¿Que funciones realiza el cortafuegos?</enunciado>
+	<opcionA>Las respuesta C y D son correctas.</opcionA>
+	<opcionB>Vaciar la papelera.</opcionB>
+	<opcionC>Ocultar la verdadera dirección del servidor, actuando como un proxy.</opcionC>
+	<opcionD>La tarea principal es bloquear y filtrar paquetes.</opcionD>
+	<solucion>A</solucion>
+</pregunta>
+
+<pregunta>
+  <enunciado>¿Qué es defensa en profundidad? </enunciado>
+  <opcionA>Configurar varias capas de defensa para defender el sistema a varios niveles. </opcionA>
+  <opcionB> Configurar el cortafuegos. </opcionB>
+  <opcionC>Establecer politicas de seguridad. </opcionC>
+  <opcionD>Niguna es correcta. </opcionD>
+  <solucion>A </solucion>
+</pregunta>
+
+<pregunta>
+  <enunciado>Las tareas que realiza el cortafuegos son: </enunciado>
+  <opcionA> Bloqueo y filtrado de paquetes  </opcionA>
+  <opcionB> Control de protocolos de aplicación y del tráfico de red a nivel protocolo de red </opcionB>
+  <opcionC>A y B son correctas </opcionC>
+  <opcionD>Evitar que se caliente el sistema a nivel hardware </opcionD>
+  <solucion>C </solucion>
+</pregunta>
+
+<pregunta>
+  <enunciado>Cual de estos no es un objetivo de seguridad:</enunciado>
+  <opcionA>Confidencialidad.</opcionA>
+  <opcionB>Integridad.</opcionB>
+  <opcionC>Rendimiento.</opcionC>
+  <opcionD>Disponibilidad.</opcionD>
+  <solucion>C</solucion>
+</pregunta>
+<pregunta>
+  <enunciado>El cortafuegos debe:</enunciado>
+  <opcionA>Estar configurado independientemente del resto de recursos.</opcionA>
+  <opcionB>Ejecutar otro software a parte del cortafuegos.</opcionB>
+  <opcionC>Mostrar su IP.</opcionC>
+  <opcionD>Registrar la IP en un servicio de DNS.</opcionD>
+  <solucion>A</solucion>
+</pregunta>
+
+<pregunta>
+  <enunciado>¿En que concepto no se basa los objetivos de seguridad?</enunciado>
+  <opcionA>Confidencialidad</opcionA>
+  <opcionB>Integridad</opcionB>
+  <opcionC>Phishing</opcionC>
+  <opcionD>Disponibilidad</opcionD>
+  <solucion>C</solucion>
+</pregunta>
+
+<pregunta>
+  <enunciado>¿Cuales de estas políticas se usan para acceder a los recursos de forma segura?</enunciado>
+  <opcionA>Seguridad a nivel físico</opcionA>
+  <opcionB>Seguridad a nivel de red</opcionB>
+  <opcionC>Seguridad a nivel de administrador</opcionC>
+  <opcionD>Cuentas de servicios</opcionD>
+  <solucion>D</solucion>
+</pregunta>
+
+<pregunta>
+  <enunciado>Los objetivos de seguridad se bansan en:</enunciado>
+  <opcionA>Confidencialidad.</opcionA>
+  <opcionB>Integridad.</opcionB>
+  <opcionC>Disponibilidad.</opcionC>
+  <opcionD>Todas las opciones son correctas.</opcionD>
+  <solucion>D</solucion>
+</pregunta>
+
+<pregunta>
+  <enunciado>¿Todos los mensajes que entran y salen del sistema pasan por el cortafuegos?:</enunciado>
+  <opcionA>Solo los mensajes que entran.</opcionA>
+  <opcionB>Sí, todos.</opcionB>
+  <opcionC>No, ninguno.</opcionC>
+  <opcionD>Depende de la importancia del mensaje.</opcionD>
+  <solucion>B</solucion>
+</pregunta>
+
+<pregunta>
+  <enunciado>1. ¿Cuál de los siguientes software no es o no puede ser utilizado como herramienta para comprobar el rendimiento de un servidor web? </enunciado>
+  <opcionA>Apache Benchmark</opcionA>
+  <opcionB>httperf</opcionB>
+  <opcionC>OpenWebLoad</opcionC>
+  <opcionD>nginx</opcionD>
+  <solucion>D</solucion>
+</pregunta>
+
+<pregunta>
+  <enunciado>2. Uno de los siguientes no es un tipo de pruebas para comprobar el rendimiento del servidor. ¿Cuál? </enunciado>
+  <opcionA>Overload(Sobrecarga)</opcionA>
+  <opcionB>Smoke(Humo)</opcionB>
+  <opcionC>Sub-Zero(Congelación)</opcionC>
+  <opcionD>Stability(Estabilidad) </opcionD>
+  <solucion>C</solucion>
+</pregunta>
+
+<pregunta>
+   <enunciado>De cual de las siguientes tareas no se encarga un cortafuegos:</enunciado>
+   <opcionA>Bloquear y filtrar paquetes</opcionA>
+   <opcionB>Controlar protocolos de aplicación</opcionB>
+   <opcionC>Proteger los servidores y aplicaciones de ataques</opcionC>
+   <opcionD>Mostrar los servidores finales a otras redes</opcionD>
+   <solucion>D</solucion>
+</pregunta>
+<pregunta>
+   <enunciado>La seguridad a nivel físico:</enunciado>
+   <opcionA>Es menos importante que la del nivel de red</opcionA>
+   <opcionB>Es tan importante como la del nivel de red</opcionB>
+   <opcionC>Es más importante que la del nivel de red</opcionC>
+   <opcionD>No es nada importante</opcionD>
+   <solucion>B</solucion>
+</pregunta>
+
+<pregunta>
+  <enunciado>¿Con qué directiva configuraríamos un cortafuegos para evitar el acceso a Facebook?:</enunciado>
+  <opcionA>iptables -A OUTPUT -p tcp -d facebook.com -j BLOCK</opcionA>
+  <opcionB>netstat -tulpn -b facebook.com</opcionB>
+  <opcionC>iptables -A OUTPUT -p tcp -d facebook.com -j DROP</opcionC>
+  <opcionD>iptables -A INPUT -p udp -d facebook.com -j DROP</opcionD>
+  <solucion>C</solucion>
+</pregunta>
+
+
+<pregunta>
+  <enunciado>¿En qué consiste la integridad al hablar de seguridad de un sistema web?:</enunciado>
+  <opcionA>Los mensajes sólo pueden ser leídos por emisor y receptor.</opcionA>
+  <opcionB>Los mensajes deben llegar al destinatario correcto.</opcionB>
+  <opcionC>El número de mensajes enviados debe coincidir con el número de mensajes recibidos.</opcionC>
+  <opcionD>Los mensajes enviados deben ser exactamente los recibidos.</opcionD>
+  <solucion>D</solucion>
+</pregunta>
+
+<pregunta>
+  <enunciado>¿En qué se basa la seguridad?</enunciado>
+  <opcionA>Confidencialidad.</opcionA>
+  <opcionB>Integridad .</opcionB>
+  <opcionC>Disponibilidad.</opcionC>
+  <opcionD>Todas las anteriores.</opcionD>
+  <solucion>D</solucion>
+</pregunta>
+<pregunta>
+  <enunciado>¿Cual no es un nivel de políticas de seguridad?</enunciado>
+  <opcionA>Seguridad a nivel físico .</opcionA>
+  <opcionB>Seguridad a nivel de red .</opcionB>
+  <opcionC>Seguridad a nivel de administrador .</opcionC>
+  <opcionD>Seguridad a nivel de experto.</opcionD>
+  <solucion>D</solucion>
+</pregunta>
+
+
+
+</tema>

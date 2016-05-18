@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tema titulo="Tema 7: Almacenamiento de datos" cantidad_preguntas="84">
+
+<pregunta>
+   <enunciado>¿ Que es RAID?</enunciado>
+   <opcionA>RAID (conjunto redundante de discos independientes) esun sistema de almacenamiento que usa múltiples discos duros entre los que se distribuyen o replican los datos. </opcionA>
+   <opcionB>Es un tipo de dispositivo de almacenamiento de datos que utiliza memoria no volátil, como la memoria flash, para almacenar datos, en lugar de los platos o discos magnéticos de las unidades de discos duros (HDD) convencionales.</opcionB>
+   <opcionC>Control del tráfico de red a nivel de protocolo de red(TCP o UDP)  es el dispositivo de almacenamiento de datos que emplea un sistema de grabación magnética para almacenar archivos digitales.</opcionC>
+   <opcionD>Ninguna de las anteriores</opcionD>
+   <solucion>A</solucion>
+ </pregunta>
+ 
+ <pregunta>
+   <enunciado>El RAID 1 : </enunciado>
+   <opcionA>Usa división a nivel de bloques con un disco de paridad dedicado. Necesita un mínimo de 3 discos físicos. </opcionA>
+   <opcionB>Divide los datos a nivel de bloques, distribuyendo la información de paridad entre los discos del conjunto.</opcionB>
+   <opcionC>Usa división a nivel de bits.</opcionC>
+   <opcionD>Crea una copia exacta (o espejo) de un conjunto de datos en dos o más discos.</opcionD>
+   <solucion>D</solucion>
+ </pregunta>
+
+ <pregunta>
+<enunciado>1. ¿A que se refiere la ampliación vertical? </enunciado>
+<opcionA>Replicar el almacenamiento entre varios servidores.</opcionA>
+<opcionB>Ampliar el espacio vertical.</opcionB>
+<opcionC>Adquirir una mejora hardware más rápido y actualizado.</opcionC>
+<opcionD>La ampliación vertical no existe.</opcionD>
+<solucion>C</solucion>
+</pregunta>
+
+<pregunta>
+<enunciado>2. ¿Qué significa segmentar la BD?</enunciado>
+<opcionA>Hacer una división lógica de la BD.</opcionA>
+<opcionB>No tiene significado.</opcionB>
+<opcionC>Número de sesiones concurrentes en la BD.</opcionC>
+<opcionD>Calcular su tamaño total.</opcionD>
+<solucion>A</solucion>
+</pregunta>
+
+<pregunta>
+   <enunciado>Que RAID se suele usar para bases de datos de alta prestaciones?</enunciado>
+   <opcionA>RAID 5</opcionA>
+   <opcionB>RAID 6</opcionB>
+   <opcionC>RAID 10</opcionC>
+   <opcionD>Cualquiera de las precedentes es corecta</opcionD>
+   <solucion>C</solucion>
+</pregunta>
+<pregunta>
+   <enunciado>Cual de estas no es una caracteristica de los discos RAID?</enunciado>
+   <opcionA>No facilita mover datos a un sistema nuevo</opcionA>
+   <opcionB>Protege los datos</opcionB>
+   <opcionC>No simplifica la recuperacion de un disastre</opcionC>
+   <opcionD>Cualquiera de las precedentes es una caracteristica de los RAID</opcionD>
+   <solucion>B</solucion>
+</pregunta>
+<pregunta>
+   <enunciado>Cual de las siguientes es una propriedad de los RAID 1?</enunciado>
+   <opcionA>Permite hacer backup sobre un disco inactivo secundario mientras que el primero sigue dando servicio</opcionA>
+   <opcionB>Usa division a nivel de bloques</opcionB>
+   <opcionC>Protege los datos antes virus</opcionC>
+   <opcionD>El el mejor sistema de archivos existente</opcionD>
+   <solucion>A</solucion>
+</pregunta>
+
+<pregunta>
+  <enunciado> ¿Cuál de las siguientes afirmaciones sobre una configuración RAID es falsa? </enunciado>
+  <opcionA> Ofrece mayor integridad, mayor tolerancia a fallos, mayor rendimiento y mayor capacidad. </opcionA>
+  <opcionB> Un RAID por hardware es mucho más rápido que uno configurado por software. </opcionB>
+  <opcionC> Un RAID por software son mucho más flexibles. </opcionC>
+  <opcionD> Un RAID por software no permite construir RAID de particiones en lugar de discos completos. </opcionD>
+  <solucion> D </solucion>
+</pregunta>
+
+<pregunta>
+  <enunciado> ¿Cuál de las siguientes afirmaciones sobre arrays de almacenamiento compartido, SSA, es falsa?  </enunciado>
+  <opcionA> La posibilidad de manejo y la flexibilidad de un SSA es ilimitada. </opcionA>
+  <opcionB> Posee una interfaz para conectar los discos a las controladoras. </opcionB>
+  <opcionC> Número limitado de puertos para hacer la conexión entre servidores y almacenamiento. </opcionC>
+  <opcionD> Se suele usar para disponer del almacenamiento necesario para archivos y BD en clusters. </opcionD>
+  <solucion> A </solucion>
+</pregunta>
+
+<pregunta>
+  <enunciado>¿De las siguientes opciones que puede hacer RAID?</enunciado>
+  <opcionA>Proteger los datos</opcionA>
+  <opcionB>Simplifica la recuperación de un desastre</opcionB>
+  <opcionC>Acceder a los datos aunque falle un disco</opcionC>
+  <opcionD>Mejora el rendimiento para todas las aplicaciones</opcionD>
+  <solucion>C</solucion>
+</pregunta>
+
+<pregunta>
+  <enunciado>¿Cuales no son tan eficientes en operaciones de escritura?</enunciado>
+  <opcionA>RAID0, RAID1 Y RAID2</opcionA>
+  <opcionB>RAID4, RAID5 Y RAID6</opcionB>
+  <opcionC>RAID4, RAID1, RAID10 Y RAID5</opcionC>
+  <opcionD>Cuentas de servicios</opcionD>
+  <solucion>D</solucion>
+</pregunta>
+
+<pregunta>
+  <enunciado>¿Cómo podemos mejorar las prestaciones de los sitemas de almacenamiento?:</enunciado>
+  <opcionA>Ampliación vertical.</opcionA>
+  <opcionB>Ampliación horizontal.</opcionB>
+  <opcionC>Ampliación diagonal.</opcionC>
+  <opcionD>Las respuestas A y B son correctas.</opcionD>
+  <solucion>D</solucion>
+</pregunta>
+
+<pregunta>
+  <enunciado>¿Cuál es un nivel de RAID?:</enunciado>
+  <opcionA>RAID 0.</opcionA>
+  <opcionB>RAID 1.</opcionB>
+  <opcionC>RAID 5.</opcionC>
+  <opcionD>Todas las opciones son correctas.</opcionD>
+  <solucion>D</solucion>
+</pregunta>
+
+<pregunta>
+  <enunciado>¿Cómo podemos mejorar las prestaciones de los sistemas de almacenamiento?</enunciado>
+  <opcionA>Ampliación vertical y horizontal.</opcionA>
+  <opcionB>Ampliación horizontal.</opcionB>
+  <opcionC>No se puede mejorar.</opcionC>
+  <opcionD>Ampliación diagonal.</opcionD>
+  <solucion>A</solucion>
+</pregunta>
+<pregunta>
+  <enunciado>¿Qué significa las siglas RAID?</enunciado>
+  <opcionA>Redundant Array of Independent Disks.</opcionA>
+  <opcionB>Real Federación Hipica Española.</opcionB>
+  <opcionC>Hinchas de los Raiders.</opcionC>
+  <opcionD>Vuelo de aviación a gran distancia.</opcionD>
+  <solucion>A</solucion>
+</pregunta>
+
+
+
+</tema>

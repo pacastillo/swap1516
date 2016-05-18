@@ -1,0 +1,654 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tema titulo="Tema 5: Medir prestaciones" cantidad_preguntas="84">
+
+<pregunta>
+<enunciado>¿Cuál es un patron de tráfico ?</enunciado>
+<opcionA>HTTP</opcionA>
+<opcionB>FTP</opcionB>
+<opcionC>Tienda web</opcionC>
+<opcionD>Todas son correctas</opcionD>
+<solucion>D</solucion>
+</pregunta>
+
+<pregunta>
+<enunciado>¿Cuál no es un paso para establecer una conexión HTTP?</enunciado>
+<opcionA>Inicio conexión TCP</opcionA>
+<opcionB>Reenvío de archivo</opcionB>
+<opcionC>Petición de archivo</opcionC>
+<opcionD>Archivo recibido</opcionD>
+<solucion>B</solucion>
+</pregunta>
+
+<pregunta>
+	<enunciado>¿Qué versión HTTP permite obtener varios objetos durante una sesión abierta con una sola conexión?</enunciado>
+	<opcionA>HTTP 2.3</opcionA>
+	<opcionB>HTTP 1.0</opcionB>
+	<opcionC>HTTP 1.1</opcionC>
+	<opcionD>HTTP 2.0</opcionD>
+	<solucion>C</solucion>
+</pregunta>
+
+<pregunta>
+	<enunciado>¿En qué se mide la velocidad a la que el balanceador maneja y pasa el tráfico?</enunciado>
+	<opcionA>Megas/segundo.</opcionA>
+	<opcionB>Gigabytes/minuto.</opcionB>
+	<opcionC>Bits/segundo.</opcionC>
+	<opcionD>Ninguna de las anteriores es correcta.</opcionD>
+	<solucion>C</solucion>
+</pregunta>
+
+<pregunta>
+  <enunciado>¿Que ocurre si se alcanza el limite de trafico de red en un sistema?</enunciado>
+  <opcionA>Los tiempos de respuesta HTTP aumentan</opcionA>
+  <opcionB>No imposibilita la conexion , pero degrada el tiempo de respuesta</opcionB>
+  <opcionC>Los tiempos de respuesta HTTP se degradan completamente , imposibilitando la conexion</opcionC>
+  <opcionD>Los tiempos de respuesta no varian , pero imposibilita la conexion</opcionD>
+  <solucion>C</solucion>
+</pregunta>
+
+<pregunta>
+  <enunciado>¿En que consiste la prueba realizada a los servidores "Stress" ? </enunciado>
+  <opcionA>Pruebas preliminares para comprobar que el sistema esta listo para los siguientes test</opcionA>
+  <opcionB>Actividad creciente hasta detectar el punto de saturacion</opcionB>
+  <opcionC>Para analizar el efecto de aplicar de forma continuada una carga por encima de la capacidad del sistema</opcionC>
+  <opcionD>Cargas lo mas similares posibles a la real , aplicadas durante 1 dia o 1 semana</opcionD>
+  <solucion>C</solucion>
+</pregunta>
+
+<pregunta>
+   <enunciado>Las conexiones por segundo...</enunciado>
+   <opcionA>Las aperturas y cierres de conexiones no consumen muchos recursos..</opcionA>
+   <opcionB>Es un factor no determinante, ya que es muy costoso.</opcionB>
+   <opcionC>Es un factor determinante, ya que abrir y cerrar conexiones HTTP resulta muy costoso.  </opcionC>
+   <opcionD>Ninguna de las anteriores</opcionD>
+   <solucion>C</solucion>
+ </pregunta>
+ 
+ <pregunta>
+   <enunciado>El rendimiento... </enunciado>
+   <opcionA>Hace referencia a la velocidad a la que el balanceador maneja y pasa el tráfico. </opcionA>
+   <opcionB>El paquete típico tiene un tamaño máximo de 100KB.</opcionB>
+   <opcionC>Se mide en bits por minuto.</opcionC>
+   <opcionD>Ninguna de las anteriores</opcionD>
+   <solucion>A</solucion>
+ </pregunta>
+
+ <pregunta>
+  <enunciado> FTP tiene como métrica más importante... </enunciado>
+  <opcionA>Rendimiento</opcionA>
+  <opcionB>Conexiones por segundo</opcionB>
+  <opcionC>Total de conexiones concurrentes</opcionC>
+  <opcionD>Otra</opcionD>
+  <solucion>A</solucion>
+</pregunta>
+
+<pregunta>
+  <enunciado>¿Qué prueba consiste en aplicar fuertes picos de carga durante cortos periodos?</enunciado>
+  <opcionA>Estrés</opcionA>
+  <opcionB>Humo</opcionB>
+  <opcionC>Carga</opcionC>
+  <opcionD>Sobrecarga</opcionD>
+  <solucion>D</solucion>
+</pregunta>
+
+<pregunta>
+<enunciado>1.¿Cómo destaca Apache Benchmark? </enunciado>
+<opcionA>Como herramienta de simulación de carga.</opcionA>
+<opcionB>Como animal.</opcionB>
+<opcionC>Como herramienta de simulación de redes.</opcionC>
+<opcionD>Como herramienta de idioma.</opcionD>
+<solucion>A</solucion>
+</pregunta>
+
+<pregunta>
+<enunciado>2.Entre las diferentes pruebas que se hacen a los servidores
+para comprobar su funcionamiento, ¿en qué consiste la pruega de carga?</enunciado>
+<opcionA>Pruebas preliminares para comprobar que el sistema está listo para los test.</opcionA>
+<opcionB>Actividad creciente hasta detectar el punto de saturación.</opcionB>
+<opcionC>Cargas lo más parecidas a la real. Se ejecutan en periodos cortos, para 
+determinar los tiempos de respuesta que tendrán los usuarios.</opcionC>
+<opcionD>Aplicar fuertes picos de carga durante cortos periodos.</opcionD>
+<solucion>C</solucion>
+</pregunta>
+
+<pregunta>
+  <enunciado>Para el tráfico UPD el número de peticiones concurrentes no es un factor que afecte, ya que:</enunciado>
+  <opcionA>es un protocolo con conexión.</opcionA>
+  <opcionB>la conexión consta de tres pasos.</opcionB>
+  <opcionC>es un protocolo sin conexión.</opcionC>
+  <opcionD>UDP informa sobre el estado de la conexión.</opcionD>
+  <solucion>C</solucion>
+</pregunta>
+
+<pregunta>
+    <enunciado>¿Cuál de las siguientes no es un tipo de prueba para medir las prestaciones de un servidor web?</enunciado>
+    <opcionA>Smoke.</opcionA>
+    <opcionB>Micro Focus.</opcionB>
+    <opcionC>Capacity.</opcionC>
+    <opcionD>Stress.</opcionD>
+    <solucion>B</solucion>
+</pregunta>
+
+<pregunta>
+    <enunciado>¿Cual de los siguientes tipos de trafico genera más conexiones por segundo?</enunciado>
+    <opcionA>HTTP.</opcionA>
+    <opcionB>FTP.</opcionB>
+    <opcionC>Streaming.</opcionC>
+    <opcionD>Tienda web.</opcionD>
+    <solucion>A</solucion>
+</pregunta>
+
+<pregunta>
+  <enunciado>¿que  herramientas no se usan para comprobar el rendimiento de los servidores web?:</enunciado>
+  <opcionA>httperf</opcionA>
+  <opcionB>openWebLoad</opcionB>
+  <opcionC>blender</opcionC>
+  <opcionD>jMeter</opcionD>
+  <solucion>C</solucion>
+</pregunta>
+
+<pregunta>
+  <enunciado>¿ Cual es son  las métricas  que no hemos utilizado  
+  para medir las prestaciones de los dispositivos de balanceo?:</enunciado>
+  <opcionA>bits por segundos</opcionA>
+  <opcionB>conexiones por segundo</opcionB>
+  <opcionC>yottaFLOPS</opcionC>
+  <opcionD>número total de conexiones concurrentes</opcionD>
+  <solucion>C</solucion>
+</pregunta>
+
+<pregunta>
+ <enunciado>¿En que tipo de benchmark se genera actividad creciente hasta detectar el punto de saturación?</enunciado>
+ <opcionA>Carga (Load).</opcionA>
+ <opcionB>Estabilidad (Stability).</opcionB>
+ <opcionC>Capacity (Capacidad).</opcionC>
+ <opcionD>Humo (Smoke).</opcionD>
+ <solucion>C</solucion>
+</pregunta>
+
+
+
+<pregunta>
+ <enunciado>¿Cual de estas herramientas NO es un benchmark del rendimiento de servidores?</enunciado>
+ <opcionA>Apache Benchmark.</opcionA>
+ <opcionB>httperf</opcionB>
+ <opcionC>OpenWebLoad</opcionC>
+ <opcionD>BenchLoad</opcionD>
+ <solucion></solucion>
+</pregunta>
+
+<pregunta>
+   <enunciado>el texto del enunciado</enunciado>
+   <opcionA>primera opcion</opcionA>
+   <opcionB>segunda opcion</opcionB>
+   <opcionC>tercera opcion</opcionC>
+   <opcionD>cuarta opcion</opcionD>
+   <solucion>C</solucion>
+</pregunta>
+
+<pregunta>
+	<enunciado> 
+		 ¿Cual de las siguientes afirmaciones correponde al tipo de tráfico "tienda web"? </enunciado>
+	<opcionA> El numero de conexiones para este tipo de tráfico es muy bajo comparado con la cantidad de información enviada. </opcionA>
+	<opcionB> Consume ancho de banda intensivamente y genera muchas conexiones por segundo. </opcionB>
+	<opcionC> No se necesita un alto ancho de banda ni hay demasiadas conexiones por segundo. </opcionC>
+	<opcionD> Consume el ancho de banda máximo rápidamente. </opcionD>
+	<solucion> C </solucion>
+</pregunta>
+
+<pregunta>
+	<enunciado> Según la siguiente definición:
+		"Actividad creciente hasta detectar el punto de saturación."
+		¿A que tipo de prueba se corresponde?	
+	</enunciado>
+	<opcionA> Carga (Load)</opcionA>
+	<opcionB> Capacidad (Capacity)</opcionB>
+	<opcionC> Sobrecarga (Overload)</opcionC>
+	<opcionD> Estrés (Stress)</opcionD>
+	<solucion> B </solucion>
+</pregunta>
+
+<pregunta>
+  <enunciado>¿Cuáles de estas opciones no influyen en la cantidad de sesiones de usuario TCP que puede manejar el balanceador al mismo tiempo?</enunciado>
+  <opcionA>Memoria.</opcionA>
+  <opcionB>Procesador.</opcionB>
+  <opcionC>Alimentación.</opcionC>
+  <opcionD>Ninguna de las anteriores.</opcionD>
+  <solucion>C</solucion>
+</pregunta>
+<pregunta>
+  <enunciado>¿En qué se mide el rendimiento de un Balanceador de Carga?</enunciado>
+  <opcionA>En Megabytes por segundo.</opcionA>
+  <opcionB>En Megabytes por minuto.</opcionB>
+  <opcionC>En bits por minuto.</opcionC>
+  <opcionD>En bits por segundo.</opcionD>
+  <solucion>D</solucion>
+</pregunta>
+
+<pregunta>
+  <enunciado> Sobre el  jumboframe </enunciado>
+  <opcionA>Solución dada al verse aumentado el peso de las webs. Aumenta por 8 el payload lo que implica que se tarda 8 veces menos en servirse la página.</opcionA>
+  
+  <opcionB>Solución dada al verse reducido el peso de las webs. Reduce por 8 el payload lo que implica que se tarda 8 veces menos en servirse la página.</opcionB>
+  <opcionC>Solución dada al verse aumentado el peso de las webs. Reduce por 8 el payload lo que implica que se tarda 8 veces más en servirse la página.</opcionC>
+  <opcionD><Solución dada al verse reducido el peso de las webs. Reduce por 8 el payload lo que implica que se tarda 8 veces más en servirse la página./opcionD>
+  <solucion>A</solucion>
+</pregunta>
+
+
+<pregunta>
+  <enunciado>El total de conexiones concurrentes es la métrica más importante para:</enunciado>
+  <opcionA>Tienda web </opcionA>
+  <opcionB>FTP/Streaming </opcionB>
+  <opcionC>UDP</opcionC>
+  <opcionD>Ninguna de las anteriores</opcionD>
+  <solucion>A</solucion>
+</pregunta>
+
+<pregunta>
+  <enunciado>¿Cuál es el objetivo de medir las prestaciones de los sistemas web?</enunciado>
+  <opcionA>Comprobar si nuestro sistema web cumple unos mínimos requisitos de rendimiento</opcionA>
+  <opcionB>Cumplir con la normativa establecida para los servidores web de altas prestaciones</opcionB>
+  <opcionC>Ninguno, medir las prestaciones de un sistema web es opcional</opcionC>
+  <opcionD>Comprobar que todos los componentes de nuestro sistema web funcionan correctamente</opcionD>
+  <solucion>A</solucion>
+</pregunta>
+<pregunta>
+  <enunciado>¿Cuál de los siguientes NO es un tipo de tráfico?</enunciado>
+  <opcionA>HTTP</opcionA>
+  <opcionB>Streaming</opcionB>
+  <opcionC>FTP</opcionC>
+  <opcionD>SPHL</opcionD>
+  <solucion>D</solucion>
+</pregunta>
+
+<pregunta>
+  <enunciado>Cual es la métrica mas importante de los siguientes patrones de tráfico HTTP y FTP?</enunciado>
+  <opcionA>HTTP seria "total de conexiones concurrentes"; FTP seria "rendimiento"</opcionA>
+  <opcionB>FTP seria "rendimiento"; HTTP seria "conexiones por segundo"</opcionB>
+  <opcionC>HTTP seria "rendimiento"; FTP seria "conexiones por segundo"</opcionC>
+  <opcionD>Ninguna de las opciones son correctas</opcionD>
+  <solucion>B</solucion>
+</pregunta>
+
+<pregunta>
+  <enunciado>¿Qué limita el número de conexiones concurrentes en un dispositivo?</enunciado>
+  <opcion>Las conexiones por segundo</opcionA>
+  <opcionB>El numero de conexiones concurrentes no tiene limites</opcionB>
+  <opcionC>Las conexiones por segundo</opcionC>
+  <opcionD>La memoria o el procesador del dispositivo</opcionD>
+  <solucion>D</solucion>
+</pregunta>
+
+<pregunta>
+  <enunciado>¿Qué tipos de tráfico exinten en un balanceador?</enunciado>
+  <opcionA>HTTP y tienda web</opcionA>
+  <opcionB>FTP o streaming</opcionB>
+  <opcionC>HTTP y FTP</opcionC>
+  <opcionD>La A y B son correctas</opcionD>
+  <solucion>D</solucion>
+</pregunta>
+
+<pregunta>
+  <enunciado>Pasos para establecer una conexión HTTP:</enunciado>
+  <opcionA>El cliente envia un paquete TCP SYN al puerto 80 del servidor web, el servidor web envía un paquete ACK al cliente seguido de otro SYN y el cliente envía un paquete ACK como respuesta.</opcionA>
+  <opcionB>El cliente envia un paquete TCP SYN al puerto 80 del servidor web, el servidor web envía un paquete ACK al cliente seguido de otro SYN.</opcionB>
+  <opcionC>El cliente envia un paquete UDP SYN al puerto 80 del servidor web, el servidor web envía un paquete ACK al cliente seguido de otro SYN y el cliente envía un paquete ACK como respuesta.</opcionC>
+  <opcionD>El cliente envia un paquete UDP SYN al puerto 80 del servidor web, el servidor web envía un paquete ACK al cliente seguido de otro SYN.</opcionD>
+  <solucion>A</solucion>
+</pregunta>
+
+<pregunta>
+  <enunciado>El trafico HTTP es lo que...</enunciado>
+  <opcionA>Tras una conexión inicial (ya que usa UDP como protocolo), se envía una gran cantidad de información.</opcionA>
+  <opcionB>La velocidad es el factor más importante.</opcionB>
+  <opcionC>No se necesita un alto ancho de banda ni hay demasiadas conexiones por segundo.</opcionC>
+  <opcionD>Consume ancho de banda intensivamente y genera muchas conexiones por segundo.</opcionD>
+  <solucion>D</solucion>
+</pregunta>
+
+<pregunta>
+  <enunciado> El número de conexiones por segundo:</enunciado>
+  <opcionA> Hace referencia al número de conexiones de entrada que cierto dispositivo 
+		puede manejar por segundo.</opcionA>
+  <opcionB> Es una de las métricas más importantes cuando hablamos del rendimiento de 
+		servidores web. </opcionB>
+  <opcionC> Es muy importante, ya que abrir y cerrar conexiones HTTP resulta poco costoso.</opcionC>
+  <opcionD>  A y B son las correctas. </opcionD>
+  <solucion> D </solucion>
+</pregunta>
+
+
+<pregunta>
+  <enunciado> HTTP: </enunciado>
+  <opcionA> Usa el puerto 22. </opcionA>
+  <opcionB> No necesita paquetes ACK como respuesta a un paquete recibido para establecer conexión.</opcionB>
+  <opcionC> Todo lo contrario a B, sí necesita ACK (sobreentiendiendo TCP). </opcionC>
+  <opcionD> Sólo se maneja mediante UDP. </opcionD>
+  <solucion>C</solucion>
+</pregunta>
+
+<pregunta>
+  <enunciado> La definición "Velocidad a la que el balanceador maneja y pasa el tráfico" corresponde a:</enunciado>
+  <opcionA>Conexiones por segundo.</opcionA>
+  <opcionB>Número de conexiones concurrentes. </opcionB>
+  <opcionC>Disponibilidad de recursos.</opcionC>
+  <opcionD>Rendimiento.</opcionD>
+  <solucion>D</solucion>
+</pregunta>
+
+
+<pregunta>
+  <enunciado>Jumbo Frame es:</enunciado>
+  <opcionA> Anterior a la restricción de enviar paquetes de un tamaño determinado por el MTU.</opcionA>
+  <opcionB> Una posibilidad de modificar el tamaño de los paquetes para optimizar el tráfico y la 
+	transferencia de información.</opcionB>
+  <opcionC> No presenta ninguna ventaja. </opcionC>
+  <opcionD> La razón de una mayor decicación de CPU para su procesado en tarjetas de red, 	
+	routers..., además de llegar después.</opcionD>
+  <solucion>B</solucion>
+</pregunta>
+
+
+<pregunta>
+  <enunciado> Una vez llegamos al límite de tráfico de red sufrimos: </enunciado>
+  <opcionA> Degradación de los tiempos de respuesta en las conexiones TCP. </opcionA>
+  <opcionB> No hay vuelta atrás y debemos formatear nuestro servicio, para de esa forma comenzar de cero el servicio.</opcionB>
+  <opcionC> La ira de los usuarios de nuestros servicios.</opcionC>
+  <opcionD> Un daño transparente para el usuario.  </opcionD>
+  <solucion> A </solucion>
+</pregunta>
+
+<pregunta> 
+<enunciado>Indique con que herramienta podemos comprobar el rendimiento de un servidor web</enunciado> 
+<opcionA>Con Opensat</opcionA> 
+<opcionB>Con Jmeter</opcionB> 
+<opcionC>Con Open webload</opcionC> 
+<opcionD>Con cualquiera de las anteriores</opcionD>
+<solucion>D</solucion> 
+</pregunta> 
+
+<pregunta> 
+<enunciado>Indique las principales metricas usadas para las prestaciones</enunciado> 
+<opcionA>Conexiones por minuto, Conexiones asociativas y Rendimiento</opcionA> 
+<opcionB>Conexiones por segundo, Conexiones de entrada, Conexiones de salida</opcionB> 
+<opcionC>Conexiones por segundo, Total conexiones concurrentes, Rendimiento</opcionC> 
+<opcionD>Conexiones de entrada, Conexiones de salida, bits por segundo</opcionD>
+<solucion>C</solucion> 
+</pregunta> 
+
+<pregunta>
+  <enunciado> ¿Cuál es la medida más importante cuando hablamos del rendimiento de un servidor? </enunciado>
+  <opcionA> Número de conexiones concurrentes.  </opcionA>
+  <opcionB> Rendimiento, en bits por segundo. </opcionB>
+  <opcionC> Conexiones por segundo. </opcionC>
+  <opcionD> Número de peticiones completadas. </opcionD>
+  <solucion> C  </solucion>
+</pregunta>
+
+<pregunta>
+  <enunciado> ¿Cual de las siguientes no es un tipo de prueba en un benchmark? </enunciado>
+  <opcionA> Humo. </opcionA>
+  <opcionB> Capacitación. </opcionB>
+  <opcionC> Carga. </opcionC>
+  <opcionD> Estrés. </opcionD>
+  <solucion> B </solucion>
+</pregunta>
+
+<pregunta>
+  <enunciado>¿Qué hardware puede limitar el número de conexiones concurrentes?</enunciado>
+  <opcionA>Procesador o Tarjeta de red.</opcionA>
+  <opcionB>Memoria o Procesador</opcionB>
+  <opcionC>Memoria o HDD</opcionC>
+  <opcionD>Tarjeta de red y HDD</opcionD>
+  <solucion>B</solucion>
+</pregunta>
+<pregunta>
+  <enunciado>¿Qué es httperf?</enunciado>
+  <opcionA>Herramienta de seguridad encargada de controlar las conexiones HTTP para no permitir conexiones maliciosas.</opcionA>
+  <opcionB>Firewall para controlar el número de conexiones HTTP.</opcionB>
+  <opcionC>Herramienta mediante test para medir el rendimiento de sitios web.</opcionC>
+  <opcionD>Servidor web, similar a Apache.</opcionD>
+  <solucion>C</solucion>
+</pregunta>
+
+<pregunta>
+<enunciado>La diferencia entre los tipos de tráfico HTTP 1.0 y HTTP 1.1 es:</enunciado>
+<opcionA>el 0 y el 1 que se distingue en sus nombres.</opcionA>
+<opcionB>que el primero necesita una conexión por cada objeto, mientras que el segundo no.</opcionB>
+<opcionC>ninguna, ambos son iguales pero creados por diferentes empresas.</opcionC>
+<opcionD>Todas las anteriores son incorrectas.</opcionD>
+<solucion>B</solucion>
+</pregunta>
+
+
+<pregunta>
+<enunciado>¿En quéconsiste el tipo de prueba "Smoke"(Humo)?</enunciado>
+<opcionA>No existe el tipo de prueba "Smoke".</opcionA>
+<opcionB>Se trata de una prueba inventada hace muchos años que ya no está en uso.</opcionB>
+<opcionC>Se trata de pruebas para detectar fallos en el sistema de ventilación del servidor.</opcionC>
+<opcionD>Se trata de pruebas preliminares para comprobar que el sistema está listo para tests de carga, 
+de capacidad, de estrés, etc.</opcionD>
+<solucion>D</solucion>
+</pregunta>
+
+<pregunta>
+	<enunciado>¿Cuál es una herramienta para el análisis de tráfico?</enunciado>
+	<opcionA>Instagram.</opcionA>
+	<opcionB>Wireshark.</opcionB>
+	<opcionC>SqlServer.</opcionC>
+	<opcionD>Apache</opcionD>
+	<solucion>B</solucion>
+</pregunta>
+<pregunta>
+	<enunciado>¿Qué herramientas podemos usar para analizar el rendimiento de servidores web?</enunciado>
+	<opcionA>httperf</opcionA>
+	<opcionB>apache benchmark</opcionB>
+	<opcionC>openwebload</opcionC>
+	<opcionD>Todas son correctas.</opcionD>
+	<solucion>D</solucion>
+</pregunta>
+
+<pregunta>
+	<enunciado>¿Para que sirve Apache Benchmark?</enunciado>
+	<opcionA>Permite comprobar el rendimiento de cualquier servidor.</opcionA>
+	<opcionB>Para analizar el PC.</opcionB>
+	<opcionC>Simula con total fidelidad el uso del sitio web que pueden hacer los usuarios.</opcionC>
+        <opcionD>Para jugar.</opcionD>
+	<solucion>A</solucion>
+</pregunta>
+<pregunta>
+	<enunciado>¿Que es httperf?</enunciado>
+	<opcionA>Un software de contabilidad.</opcionA>
+	<opcionB>Un switch.</opcionB>
+	<opcionC>Un antivirus.</opcionC>
+	<opcionD>httperf es una herramienta para medir el rendimiento de sitios web.</opcionD>
+	<solucion>D</solucion>
+</pregunta>
+
+<pregunta>
+  <enunciado>El objetivo de medir prestaciones del sistema web es para: </enunciado>
+  <opcionA>Las dos son incorrectas. </opcionA>
+  <opcionB>Las dos son correctas. </opcionB>
+  <opcionC>Detectar caídas o errores de programación </opcionC>
+  <opcionD>Comprobar si cumple unos minimos requisitos de rendimiento </opcionD>
+  <solucion>D </solucion>
+</pregunta>
+
+<pregunta>
+  <enunciado>¿qué pruebas hace una empresa externa pra comprobar el rendimiento? </enunciado>
+  <opcionA>Smoke, load, Capacity y Stress</opcionA>
+  <opcionB>Stress, Overload y Stability </opcionB>
+  <opcionC>A y B son correctas </opcionC>
+  <opcionD>Las empresas externas no realizan estas tareas. </opcionD>
+  <solucion>C </solucion>
+</pregunta>
+
+<pregunta>
+  <enunciado>Cual no es una métrica para medir prestaciones de balanceadores:</enunciado>
+  <opcionA>Conexiones por segundo.</opcionA>
+  <opcionB>Número total de conexiones.</opcionB>
+  <opcionC>Rendimiento (en bits por segundo).</opcionC>
+  <opcionD>FPS. Fotogramas por segundo.</opcionD>
+  <solucion>D</solucion>
+</pregunta>
+<pregunta>
+  <enunciado>Que métrica seria más importante para una tienda web:</enunciado>
+  <opcionA>Conexiones por segundo.</opcionA>
+  <opcionB>Rendimiento.</opcionB>
+  <opcionC>Total de conexiones concurrentes.</opcionC>
+  <opcionD>Ninguna de las anteriores.</opcionD>
+  <solucion>C</solucion>
+</pregunta>
+
+<pregunta>
+  <enunciado>¿Cual de ellos es una limitación de los test que miden prestaciones?</enunciado>
+  <opcionA>No se puede simular el comportamiento de los usuarios</opcionA>
+  <opcionB>Detectar posibles cuellos de botella</opcionB>
+  <opcionC>Descubrir problemas de rendimiento</opcionC>
+  <opcionD>Ver errores de programación</opcionD>
+  <solucion>A</solucion>
+</pregunta>
+
+<pregunta>
+  <enunciado>¿Cual no es una métrica para medir las prestaciones?</enunciado>
+  <opcionA>Conexiones por segundo</opcionA>
+  <opcionB>Número toral de conexiones concurrentes</opcionB>
+  <opcionC>Streaming</opcionC>
+  <opcionD>Rendimiento</opcionD>
+  <solucion>C</solucion>
+</pregunta>
+
+<pregunta>
+  <enunciado>¿Cuál de las siguientes son métricas para medir las prestaciones de los dispositivos de balanceo?:</enunciado>
+  <opcionA>Conexiones por segundo.</opcionA>
+  <opcionB>Número total de conexiones concurrentes.</opcionB>
+  <opcionC>Rendimiento.</opcionC>
+  <opcionD>Todas las opciones son correctas.</opcionD>
+  <solucion>D</solucion>
+</pregunta>
+
+<pregunta>
+  <enunciado>¿Qué se usa para no colapsar el servidor, ya que provee control de congestión?:</enunciado>
+  <opcionA>TBC.</opcionA>
+  <opcionB>UDB.</opcionB>
+  <opcionC>TCP.</opcionC>
+  <opcionD>ABC.</opcionD>
+  <solucion>C</solucion>
+</pregunta>
+
+<pregunta>
+  <enunciado>¿Cuáles son los tipos de tráfico más comunes?</enunciado>
+  <opcionA>Http,ftp, y tienda web</opcionA>
+  <opcionB>Tienda web</opcionB>
+  <opcionC>FTP</opcionC>
+  <opcionD>http y ftp</opcionD>
+  <solucion>A</solucion>
+</pregunta>
+<pregunta>
+  <enunciado>¿Cuál es un software para comprobar el rendimiento de un servidor web?</enunciado>
+  <opcionA>Office 2007</opcionA>
+  <opcionB>Windows xp</opcionB>
+  <opcionC>Apache Benchmark</opcionC>
+  <opcionD>Android 5.1.</opcionD>
+  <solucion>C</solucion>
+</pregunta>
+<pregunta>
+  <enunciado>¿Qué es Apache Benchmark?</enunciado>
+  <opcionA>Un paque te ofimática</opcionA>
+  <opcionB>Un sistema operativo</opcionB>
+  <opcionC>herramienta que permite comprobar el rendimiento de cualquier servidor web</opcionC>
+  <opcionD>No existe</opcionD>
+  <solucion>C</solucion>
+</pregunta>
+
+<pregunta>
+  <enunciado>1. ¿Cuál de los siguientes software no es o no puede ser utilizado como herramienta para comprobar el rendimiento de un servidor web? </enunciado>
+  <opcionA>Apache Benchmark</opcionA>
+  <opcionB>httperf</opcionB>
+  <opcionC>OpenWebLoad</opcionC>
+  <opcionD>nginx</opcionD>
+  <solucion>D</solucion>
+</pregunta>
+
+<pregunta>
+  <enunciado>2. Uno de los siguientes no es un tipo de pruebas para comprobar el rendimiento del servidor. ¿Cuál? </enunciado>
+  <opcionA>Overload(Sobrecarga)</opcionA>
+  <opcionB>Smoke(Humo)</opcionB>
+  <opcionC>Sub-Zero(Congelación)</opcionC>
+  <opcionD>Stability(Estabilidad) </opcionD>
+  <solucion>C</solucion>
+</pregunta>
+
+<pregunta>
+   <enunciado>¿Qué metricas se utilizan para medir las prestaciones de un sistema web?</enunciado>
+   <opcionA>Conexiones por segundo</opcionA>
+   <opcionB>Rendimiento</opcionB>
+   <opcionC>Total de conexiones concurrentes</opcionC>
+   <opcionD>Todas las anteriores</opcionD>
+   <solucion>D</solucion>
+</pregunta>
+<pregunta>
+   <enunciado>El tráfico HTTP:</enunciado>
+   <opcionA>Consume ancho de banda intensivamente y genera muchas conexiones por segundo</opcionA>
+   <opcionB>El HTTP 1.0 envia con una conexión varios objeto</opcionB>
+   <opcionC>El HTTP 1.1 necesita una conexión para cada objeto</opcionC>
+   <opcionD>No necesita que las web sean ligeras para ser cargadas rápidamente</opcionD>
+   <solucion>A</solucion>
+</pregunta>
+
+<pregunta>
+  <enunciado>Métricas comúnmente usadas para medir las prestaciones de un sitio web:</enunciado>
+  <opcionA>Escalabilidad, fiabilidad y coste.</opcionA>
+  <opcionB>Conexiones por segundo, número total de conexiones concurrentes y rendimiento.</opcionB>
+  <opcionC>Número total de conexiones concurrentes, rendimiento y disponibilidad</opcionC>
+  <opcionD>Conexiones por segundo, escalabilidad y disponibilidad.</opcionD>
+  <solucion>B</solucion>
+</pregunta>
+
+
+<pregunta>
+  <enunciado>¿Qué tipo de prueba realizaríamos si quisiéramos detectar el punto de saturación del sistema?:</enunciado>
+  <opcionA>Carga (Load)</opcionA>
+  <opcionB>Estabilidad (Stability)</opcionB>
+  <opcionC>Sobrecarga (Overload)</opcionC>
+  <opcionD>Capacidad (Capacity)</opcionD>
+  <solucion>D</solucion>
+</pregunta>
+
+<pregunta>
+  <enunciado>¿Qué tipo de tráfico consume más ancho de banda?</enunciado>
+  <opcionA>HTTP.</opcionA>
+  <opcionB>FTP o streaming .</opcionB>
+  <opcionC>Tienda web.</opcionC>
+  <opcionD>Todas consumen por igual.</opcionD>
+  <solucion>B</solucion>
+</pregunta>
+<pregunta>
+  <enunciado>¿Cuales de los siguientes Benchmark pide la misma página repetidamente?</enunciado>
+  <opcionA>ab.</opcionA>
+  <opcionB>httperf.</opcionB>
+  <opcionC>OpenWebLoad.</opcionC>
+  <opcionD>Niguna de las anteriores.</opcionD>
+  <solucion>A</solucion>
+</pregunta>
+
+<pregunta>
+  <enunciado>¿Qué medidas nos dan información de las prestaciones de un sistema web?</enunciado>
+  <opcionA>Conexiones por segundo</opcionA>
+  <opcionB>Número total de conexiones concurrentes</opcionB>
+  <opcionC>Rendimiento en bits por segundo</opcionC>
+  <opcionD>Todas las respuestas son correctas</opcionD>
+  <solucion>D</solucion>
+</pregunta>
+<pregunta>
+  <enunciado>Las pruebas Humo (Smoke) son:</enunciado>
+  <opcionA>Cargas lo más parecidas a la real. Se ejecutan en periodos cortos para ver los tiempos de respuesta que tendrán los usuarios</opcionA>
+  <opcionB>Actividad creciente hasta detectar el punto de saturación</opcionB>
+  <opcionC>Pruebas preliminares para comprobar que el sistema está listo para los siguientes test</opcionC>
+  <opcionD>Ninguna opción anterior es correcta</opcionD>
+  <solucion>C</solucion>
+</pregunta>
+
+
+</tema>
