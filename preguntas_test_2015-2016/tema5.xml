@@ -206,7 +206,7 @@ determinar los tiempos de respuesta que tendrán los usuarios.</opcionC>
   
   <opcionB>Solución dada al verse reducido el peso de las webs. Reduce por 8 el payload lo que implica que se tarda 8 veces menos en servirse la página.</opcionB>
   <opcionC>Solución dada al verse aumentado el peso de las webs. Reduce por 8 el payload lo que implica que se tarda 8 veces más en servirse la página.</opcionC>
-  <opcionD><Solución dada al verse reducido el peso de las webs. Reduce por 8 el payload lo que implica que se tarda 8 veces más en servirse la página./opcionD>
+  <opcionD>Solución dada al verse reducido el peso de las webs. Reduce por 8 el payload lo que implica que se tarda 8 veces más en servirse la página.</opcionD>
   <solucion>A</solucion>
 </pregunta>
 
@@ -250,7 +250,7 @@ determinar los tiempos de respuesta que tendrán los usuarios.</opcionC>
 
 <pregunta>
   <enunciado>¿Qué limita el número de conexiones concurrentes en un dispositivo?</enunciado>
-  <opcion>Las conexiones por segundo</opcionA>
+  <opcionA>Las conexiones por segundo</opcionA>
   <opcionB>El numero de conexiones concurrentes no tiene limites</opcionB>
   <opcionC>Las conexiones por segundo</opcionC>
   <opcionD>La memoria o el procesador del dispositivo</opcionD>
