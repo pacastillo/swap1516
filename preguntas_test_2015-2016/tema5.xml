@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tema titulo="Tema 5: Medir prestaciones" cantidad_preguntas="83">
 
+
 <pregunta>
 <enunciado>¿Cuál no es una funcionalidad de los balanceadores hardware?</enunciado>
 <opcionA>Algunos pueden balancear la carga de dispositivos como cortafuegos o concentradores</opcionA>
