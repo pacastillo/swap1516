@@ -237,7 +237,8 @@
   <solucion>B</solucion>
 </pregunta>
 
-<pregunta> Que es la Virtual IP.</pregunta>
+<pregunta>
+  <enunciado>Que es la Virtual IP.</enunciado>
   <opcionA>IP perteneciente a una máquina virtual.</opcionA>
   <opcionB>IP no estática que se asigna a un ordenador al conectarse a una red.</opcionB>
   <opcionC>IP que ven los usuarios desde fuera del sistema cuando piden un servicio al sistema. </opcionC>
