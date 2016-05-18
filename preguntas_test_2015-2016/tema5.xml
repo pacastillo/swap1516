@@ -1,24 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tema titulo="Tema 5: Medir prestaciones" cantidad_preguntas="6">
+<tema titulo="Tema 5: Medir prestaciones" cantidad_preguntas="2">
 
-
-<pregunta>
-<enunciado>¿Cuál es un patron de tráfico?</enunciado>
-<opcionA>HTTP</opcionA>
-<opcionB>FTP</opcionB>
-<opcionC>Tienda web</opcionC>
-<opcionD>Todas son correctas</opcionD>
-<solucion>D</solucion>
-</pregunta>
-
-<pregunta>
-<enunciado>¿Cuál no es un paso para establecer una conexión HTTP?</enunciado>
-<opcionA>Inicio conexión TCP</opcionA>
-<opcionB>Reenvío de archivo</opcionB>
-<opcionC>Petición de archivo</opcionC>
-<opcionD>Archivo recibido</opcionD>
-<solucion>B</solucion>
-</pregunta>
 
 <pregunta>
   <enunciado>¿Qué versión HTTP permite obtener varios objetos durante una sesión abierta con una sola conexión?</enunciado>
