@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tema titulo="Tema 5: Medir prestaciones" cantidad_preguntas="23">
+<tema titulo="Tema 5: Medir prestaciones" cantidad_preguntas="69">
 
 
 <pregunta>
@@ -73,21 +73,6 @@
   <opcionC>Carga</opcionC>
   <opcionD>Sobrecarga</opcionD>
   <solucion>D</solucion>
-</pregunta>
-
-
-
-
-
-
-
-<pregunta>
-<enunciado>¿Cómo destaca Apache Benchmark? </enunciado>
-<opcionA>Como herramienta de simulación de carga.</opcionA>
-<opcionB>Como animal.</opcionB>
-<opcionC>Como herramienta de simulación de redes.</opcionC>
-<opcionD>Como herramienta de idioma.</opcionD>
-<solucion>A</solucion>
 </pregunta>
 
 <pregunta>
