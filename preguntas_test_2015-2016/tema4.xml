@@ -248,7 +248,7 @@
 
 
 <pregunta>
-  <enunciado> Si en una granja web el balanceador utiliza un algoritmo de balanceo basado den ponderación:</enunciado>
+  <enunciado> Si en una granja web el balanceador utiliza un algoritmo de balanceo basado en ponderación:</enunciado>
   <opcionA>La máquina más potente siempre es la que se va a llevar la mayor parte de las peticiones.</opcionA>
 <opcionB>Cada máquina recibirá un % del número de conexiones dependiendo del peso que se le haya asignado. </opcionB>
   <opcionC>Cada máquina recibirá un % del número de conextiones dependiendo del número de conexiones que ha servido.</opcionC>
@@ -257,7 +257,7 @@
 </pregunta>
 
 <pregunta>
-  <enunciado>¿Cuál de las siguientes opcions mostradas a coontinuación NO es es un algoritmo de balanceo de carga?</enunciado>
+  <enunciado>¿Cuál de las siguientes opcions mostradas a coontinuación NO es un algoritmo de balanceo de carga?</enunciado>
   <opcionA>Balanceo basado en turnos</opcionA>
   <opcionB>Balanceo basado en ponderación</opcionB>
   <opcionC>Balanceo basado en prioridad</opcionC>

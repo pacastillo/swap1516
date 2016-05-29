@@ -153,15 +153,6 @@ determinar los tiempos de respuesta que tendrán los usuarios.</opcionC>
 </pregunta>
 
 <pregunta>
-   <enunciado>el texto del enunciado</enunciado>
-   <opcionA>primera opcion</opcionA>
-   <opcionB>segunda opcion</opcionB>
-   <opcionC>tercera opcion</opcionC>
-   <opcionD>cuarta opcion</opcionD>
-   <solucion>C</solucion>
-</pregunta>
-
-<pregunta>
   <enunciado> 
      ¿Cual de las siguientes afirmaciones correponde al tipo de tráfico "tienda web"? </enunciado>
   <opcionA> El numero de conexiones para este tipo de tráfico es muy bajo comparado con la cantidad de información enviada. </opcionA>
