@@ -214,7 +214,7 @@
 </pregunta>
 
 <pregunta>
-  <enunciado>¿Qué es defensa en profundidad? </enunciado>
+  <enunciado>¿Qué es la defensa en profundidad? </enunciado>
   <opcionA>Configurar varias capas de defensa para defender el sistema a varios niveles. </opcionA>
   <opcionB> Configurar el cortafuegos. </opcionB>
   <opcionC>Establecer politicas de seguridad. </opcionC>
@@ -267,7 +267,7 @@
 </pregunta>
 
 <pregunta>
-  <enunciado>Los objetivos de seguridad se bansan en:</enunciado>
+  <enunciado>Los objetivos de seguridad se basan en:</enunciado>
   <opcionA>Confidencialidad.</opcionA>
   <opcionB>Integridad.</opcionB>
   <opcionC>Disponibilidad.</opcionC>

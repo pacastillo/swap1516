@@ -29,7 +29,7 @@
 </pregunta>
 
 <pregunta>
-<enunciado>2. ¿Qué significa segmentar la BD?</enunciado>
+<enunciado>¿Qué significa segmentar la BD?</enunciado>
 <opcionA>Hacer una división lógica de la BD.</opcionA>
 <opcionB>No tiene significado.</opcionB>
 <opcionC>Número de sesiones concurrentes en la BD.</opcionC>
