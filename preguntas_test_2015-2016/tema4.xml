@@ -38,7 +38,7 @@
 </pregunta>
 
 <pregunta>
-  <enunciado>¿Que tarea adiccional , ademas de distribuir el trafico entre varios servidores , realiza el balanceador?</enunciado>
+  <enunciado>¿Qué tarea adiccional , ademas de distribuir el trafico entre varios servidores , realiza el balanceador?</enunciado>
   <opcionA>Comprobar la disponiblidad de los servidores</opcionA>
   <opcionB>Proteger de dirversos ataques</opcionB>
   <opcionC>Derivar en funcion del tipo de trafico</opcionC>
@@ -47,7 +47,7 @@
 </pregunta>
 
 <pregunta>
-  <enunciado>¿Que proceso sucede tras teclear una URL en el navegador?</enunciado>
+  <enunciado>¿Qué proceso sucede tras teclear una URL en el navegador?</enunciado>
   <opcionA>Realiza la peticion HTTP</opcionA>
   <opcionB>El servidor devuelve la pagina HTML completa</opcionB>
   <opcionC>El navegador resuelve el nombre del sitio web (DNS)</opcionC>
@@ -56,7 +56,7 @@
 </pregunta>
 
 <pregunta>
-   <enunciado>¿Que es la Virtual IP (VIP)  ?.</enunciado>
+   <enunciado>¿Qué es la Virtual IP (VIP)  ?.</enunciado>
    <opcionA>Se trata de estructurar varios cortafuegos de forma balanceada.</opcionA>
    <opcionB>Dirección pública a la que acceden los usuarios cuando piden un servicio al sistema.</opcionB>
    <opcionC>Dirección privada a la que acceden los usuarios cuando piden un servicio al sistema. </opcionC>
@@ -120,7 +120,7 @@
 </pregunta>
 
 <pregunta>
-    <enunciado>¿Que se consigue con el balanceo de carga global?</enunciado>
+    <enunciado>¿Qué se consigue con el balanceo de carga global?</enunciado>
     <opcionA>Distribuir la carga entre varios centros.</opcionA>
     <opcionB>Evitar retrasos en las comunicaciones.</opcionB>
     <opcionC>Redundancia ante errores.</opcionC>
@@ -129,7 +129,7 @@
 </pregunta>
 
 <pregunta>
-    <enunciado>¿Cual de las siguientes tareas no es realizada por el balanceador?</enunciado>
+    <enunciado>¿Cuál de las siguientes tareas no es realizada por el balanceador?</enunciado>
     <opcionA>Comprobar la disponibilidad de los servidores.</opcionA>
     <opcionB>Sirven contenido dinámico.</opcionB>
     <opcionC>Protección ante ataques.</opcionC>
@@ -171,11 +171,11 @@
   <opcionB>Redundancia.</opcionB>
   <opcionC>Algoritmos de balanceo de carga.</opcionC>
   <opcionD>Persistencia.</opcionD>
-  <solucion>C</solucion>
+  <solucion>D</solucion>
 </pregunta>
 
 <pregunta>
- <enunciado>¿Cual de estos algoritmos de balanceo asigna a cada máquina un peso para controlar el % de peticiones que se le
+ <enunciado>¿Cuál de estos algoritmos de balanceo asigna a cada máquina un peso para controlar el % de peticiones que se le
      pasa a cada una?</enunciado>
  <opcionA>Basado en prioridad.</opcionA>
  <opcionB>Round-robin</opcionB>
@@ -187,7 +187,7 @@
 
 
 <pregunta>
- <enunciado>¿Cual es uno de los problemas de implementar el balanceo de carga mediante DNS?</enunciado>
+ <enunciado>¿Cuál es uno de los problemas de implementar el balanceo de carga mediante DNS?</enunciado>
  <opcionA>no se puede implementar el balanceo mediante DNS.</opcionA>
  <opcionB>tiene un coste de implementación muy alto.</opcionB>
  <opcionC>los servidores DNS no tienen información sobre la disponibilidad de las máquinas.</opcionC>
@@ -204,15 +204,15 @@
    <solucion>A</solucion>
 </pregunta>
 <pregunta>
-   <enunciado>Un balanceo con dispositivo HW tiene muchas funcionalidades, pero una de las siguientes no es entre ellas:</enunciado>
+   <enunciado>Un balanceo con dispositivo HW tiene muchas funcionalidades, pero una de las siguientes no está entre ellas:</enunciado>
    <opcionA>repartir trafico entre servidores de la granja</opcionA>
-   <opcionB>servir contenido estatico directamente como si fue cache</opcionB>
-   <opcionC>aniadir capacidad de calculo compartendo con la red su procesadores</opcionC>
-   <opcionD>hacer traduccion NAT</opcionD>
+   <opcionB>servir contenido estático directamente como desde su caché</opcionB>
+   <opcionC>añadir capacidad de cálculo compartiendo con la red sus procesadores</opcionC>
+   <opcionD>hacer traducción NAT</opcionD>
    <solucion>C</solucion>
 </pregunta>
 <pregunta>
-   <enunciado>Cual de lo siguientes mecanismos de redericionamiento necesita dos accesos (con problemas de latencia)?</enunciado>
+   <enunciado>¿Cuál de lo siguientes mecanismos de redericionamiento necesita dos accesos (con problemas de latencia)?</enunciado>
    <opcionA>redireccion HTTP</opcionA>
    <opcionB>redireccion HTTP con HTML</opcionB>
    <opcionC>redireccion HTTP con JS</opcionC>
@@ -221,7 +221,7 @@
 </pregunta>
 
 <pregunta>
-  <enunciado>¿Cual de las siguientes no es una tecnología similar al balanceo de carga?</enunciado>
+  <enunciado>¿Cuál de las siguientes no es una tecnología similar al balanceo de carga?</enunciado>
   <opcionA>Balanceo de carga en cortafuegos.</opcionA>
   <opcionB>Balanceo de carga en router.</opcionB>
   <opcionC>Clustering</opcionC>
@@ -229,7 +229,7 @@
   <solucion>B</solucion>
 </pregunta>
 <pregunta>
-  <enunciado>¿Cuando es adecuado el algoritmo de balanceo basado en turnos?</enunciado>
+  <enunciado>¿Cuándo es adecuado el algoritmo de balanceo basado en turnos?</enunciado>
   <opcionA>Cuando todas las máquinas están en la misma localización.</opcionA>
   <opcionB>Si todas las máquinas tienen una potencia similar o bien vamos a servir aplicaciones o servicios sencillos.</opcionB>
   <opcionC>Cuando hay pocas máquinas.</opcionC>
@@ -238,7 +238,7 @@
 </pregunta>
 
 <pregunta>
-  <enunciado>Que es la Virtual IP.</enunciado>
+  <enunciado>¿Qué es la Virtual IP?</enunciado>
   <opcionA>IP perteneciente a una máquina virtual.</opcionA>
   <opcionB>IP no estática que se asigna a un ordenador al conectarse a una red.</opcionB>
   <opcionC>IP que ven los usuarios desde fuera del sistema cuando piden un servicio al sistema. </opcionC>
@@ -283,7 +283,7 @@
 </pregunta>
 
 <pregunta>
-  <enunciado>¿Cual es un inconveniente del balanceo mediante DNS?</enunciado>
+  <enunciado>¿Cuál es un inconveniente del balanceo mediante DNS?</enunciado>
   <opcionA>El DNS no tiene informacion sobre la disponibilidad de la maquina final.</opcionA>
   <opcionB>Es sencillo de implementar</opcionB>
   <opcionC>Sirve para distribuir el caudal de peticiones entre los servidores de la granja web</opcionC>
@@ -345,9 +345,9 @@
   <enunciado> En un balanceo de carga global </enunciado>
   <opcionA> Se puede implementar con los DNS o BGP (Border Gateway Protocol). </opcionA>
   <opcionB> Se balancean todos las peticiones a la vez. </opcionB>
-  <opcionC>Se realiza un balanceo entre centros de datos, y además, entre los servidores dentro del centro de datos escogido.</opcionC>
+  <opcionC>No se realiza un balanceo entre centros de datos, y además, entre los servidores dentro del centro de datos escogido.</opcionC>
   <opcionD>El tráfico de un usuario va desde el navegador cliente al centro de datos mejor dotado.</opcionD>
-  <solucion> A y C son las respuestas correctas. </solucion>
+  <solucion>A</solucion>
 </pregunta>
 
 
@@ -369,7 +369,7 @@
   <opcionB> La petición irá al servidor final que lleve más tiempo ocioso..</opcionB>
   <opcionC> La orden se lanza de forma totalmente aleatoria. </opcionC>
   <opcionD> La petición es rechazada, este caso no debe darse nunca. </opcionD>
-  <solucion> B.</solucion>
+  <solucion> B</solucion>
 </pregunta>
 
 
@@ -393,10 +393,10 @@
 
 
 <pregunta> 
-<enunciado>Señale cual puede ser una desventaja de GSLB basado en DNS</enunciado> 
-<opcionA>DNS no se desarrollo para el balanceo de carga</opcionA> 
-<opcionB>Complejo funcionamientoDMZ complejo</opcionB> 
-<opcionC>Complejidad en la configuracion</opcionC> 
+<enunciado>Señale cuál puede ser una desventaja de GSLB basado en DNS</enunciado> 
+<opcionA>El DNS no se desarrolló para el balanceo de carga</opcionA> 
+<opcionB>Complejo funcionamiento DMZ complejo</opcionB> 
+<opcionC>Complejidad en la configuración</opcionC> 
 <opcionD>Todas son correctas</opcionD>
 <solucion>D</solucion> 
 </pregunta>
@@ -420,7 +420,7 @@
 </pregunta>
 
 <pregunta>
-  <enunciado>¿Cual de los siguientes algoritmos de balanceo de carga no existe?</enunciado>
+  <enunciado>¿Cuál de los siguientes algoritmos de balanceo de carga no existe?</enunciado>
   <opcionA>Balanceo basado en ponderación.</opcionA>
   <opcionB>Balanceo basado en turnos (Round-Robin)</opcionB>
   <opcionC>Balanceo basado en primero en entrar, primero en salir (FIFO)</opcionC>
@@ -437,7 +437,7 @@
 </pregunta>
 
 <pregunta>
-<enunciado>¿Cual es el significado de las siglas "IP"?</enunciado>
+<enunciado>¿Cuál es el significado de las siglas "IP"?</enunciado>
 <opcionA>Identity Portable</opcionA>
 <opcionB>Internet Protocol.</opcionB>
 <opcionC>Identify process</opcionC>
@@ -464,7 +464,7 @@
 	<solucion>C</solucion>
 </pregunta>
 <pregunta>
-	<enunciado>¿El algoritmo de balanceos basado en turnos supone?</enunciado>
+	<enunciado>El algoritmo de balanceos basado en turnos supone...</enunciado>
 	<opcionA>A todas las máquinas con la  misma potencia.</opcionA>
 	<opcionB>A la máquina principal con el doble de potencia.</opcionB>
 	<opcionC>A las dos primeras máquinas con el doble de potencia.</opcionC>
@@ -473,7 +473,7 @@
 </pregunta>
 
 <pregunta>
-	<enunciado>¿Que es el algoritmo round-robin?</enunciado>
+	<enunciado>¿Qué es el algoritmo round-robin?</enunciado>
 	<opcionA>Todas son correctas.</opcionA>
 	<opcionB>Tener varios equipos configurados por si alguno falla.</opcionB>
 	<opcionC>Un algoritmo de balanceo basado en turnos.</opcionC>
@@ -481,7 +481,7 @@
 	<solucion>C</solucion>
 </pregunta>
 <pregunta>
-	<enunciado>¿Cual no es un algoritmo de balanceo de carga?</enunciado>
+	<enunciado>¿Cuál es un algoritmo de balanceo de carga?</enunciado>
 	<opcionA>Balanceo basado en turnos (round-robin).</opcionA>
 	<opcionB>Balanceo basado en tiempo de respuesta.</opcionB>
 	<opcionC>Balanceo basado en prioridad.</opcionC>
@@ -510,7 +510,7 @@
 </pregunta>
 
 <pregunta>
-  <enunciado>¿Que es un centro de datos?</enunciado>
+  <enunciado>¿Qué es un centro de datos?</enunciado>
   <opcionA>El servidor donde se almacenan los datos.</opcionA>
   <opcionB>Varios servidores que almacenan datos.</opcionB>
   <opcionC>Un edificio con alta seguridad, refrigeración controlada, alimentación continua y sistemas antiicendios.</opcionC>
@@ -527,7 +527,7 @@
 </pregunta>
 
 <pregunta>
-  <enunciado>¿Cuales de las siguientes opciones no es una ventaja de una granja web con balanceo de carga?</enunciado>
+  <enunciado>¿Cuáles de las siguientes opciones no es una ventaja de una granja web con balanceo de carga?</enunciado>
   <opcionA>Mejora la escalabilidad</opcionA>
   <opcionB>Facilita el mantenimiento</opcionB>
   <opcionC>Mejora la seguridad</opcionC>
@@ -554,7 +554,7 @@
 </pregunta>
 
 <pregunta>
-  <enunciado>¿Cúal opcion de redirección crees que es la más adecuada?</enunciado>
+  <enunciado>¿Qué opción de redirección crees que es la más adecuada?</enunciado>
   <opcionA>Redirección con JavaScript</opcionA>
   <opcionB>Redirección con PHP</opcionB>
   <opcionC>Redirección básica con HTML</opcionC>
@@ -650,7 +650,7 @@
 </pregunta>
 
 <pregunta>
-  <enunciado>¿Que es lo que NO puede hacer un balanceador?</enunciado>
+  <enunciado>¿Qué es lo que NO puede hacer un balanceador?</enunciado>
   <opcionA>Es un puente entre la red y los servidores finales.</opcionA>
   <opcionB>Puede manejar los protocolos de alto nivel.</opcionB>
   <opcionC>Puede dar los servicios requeridos por los clientes.</opcionC>
