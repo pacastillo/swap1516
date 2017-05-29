@@ -216,21 +216,12 @@ web a los usuarios finales.</opcionD>
 </pregunta>
 
 <pregunta>
-  <enunciado>el texto del enunciado</enunciado>
-  <opcionA>primera opcion</opcionA>
-  <opcionB>segunda opcion</opcionB>
-  <opcionC>tercera opcion</opcionC>
-  <opcionD>cuarta opcion</opcionD>
-  <solucion>C</solucion>
-</pregunta>
-
-<pregunta>
-  <enunciado>Cuales son las principales ventajas de una granja web</enunciado>
+  <enunciado>¿Cuáles son las principales ventajas de una granja web?</enunciado>
   <opcionA>Es facil y rápida de montar.</opcionA>
   <opcionB>Una vez montada no requiere mayor inversión de tiempo.</opcionB>
   <opcionC>Sumamente eficiente para sitios web con poco tráfico. </opcionC>
   <opcionD>Es escalable y con alta disponibilidad.</opcionD>
-  <solucion>C</solucion>
+  <solucion>D</solucion>
 </pregunta>
 
 
@@ -397,10 +388,8 @@ web a los usuarios finales.</opcionD>
 
 <pregunta>
   <enunciado>¿Posible solucion cuando se tienen problemas en la carga del sistema?</enunciado>
-  <opcionA>Tener una máquina servidor
-replicada</opcionA>
-  <opcionB>Configurar varias máquinas, dedicando una a cada servicio
-que se esté ofreciendo</opcionB>
+  <opcionA>Tener una máquina servidor replicada</opcionA>
+  <opcionB>Configurar varias máquinas, dedicando una a cada servicio que se esté ofreciendo</opcionB>
   <opcionC>Modificaciones directamente en el servidor en producción </opcionC>
   <opcionD>Actualización del sistema operativo</opcionD>
   <solucion>B</solucion>
@@ -416,7 +405,7 @@ que se esté ofreciendo</opcionB>
 </pregunta>
 
 <pregunta>
-	<enunciado>¿Cuales son problemas relacionados con la disponibilidad de un sitio web mal planificado?</enunciado>
+	<enunciado>¿Cuáles son problemas relacionados con la disponibilidad de un sitio web mal planificado?</enunciado>
 	<opcionA>El hardware tarde o temprano falla, problemas de programación por casuísticas de uso y servicios comunes con la parte interna de la empresa sobrecargan el servidor para dar el servicio principal</opcionA>
 	<opcionB>Tener poco espacio de almacenamiento, tener pocos recursos de ancho de banda y tener problemas de alimentación eléctrica</opcionB>
 	<opcionC>El hardware tarde o temprano falla, llegada de un alto numero de clientes en un corto periodo de tiempo y tener accesos no autorizados</opcionC>
@@ -564,16 +553,6 @@ que se esté ofreciendo</opcionB>
   <opcionC>No existe dicho "límite".</opcionC>
   <opcionD>Un 90%.</opcionD>
   <solucion>D</solucion>
-</pregunta>
-
-
-<pregunta>
-  <enunciado>enunciado</enunciado>
-  <opcionA>primera opcion</opcionA>
-  <opcionB>segunda opcion</opcionB>
-  <opcionC>tercera opcion</opcionC>
-  <opcionD>cuarta opcion</opcionD>
-  <solucion>C</solucion>
 </pregunta>
 
 <pregunta>
