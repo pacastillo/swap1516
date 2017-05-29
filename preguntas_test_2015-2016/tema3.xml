@@ -11,7 +11,7 @@
 </pregunta>
 
 <pregunta>
-  <enunciado>¿Cual de las siguientes afirmaciones es correcta?</enunciado>
+  <enunciado>¿Cuál de las siguientes afirmaciones es correcta?</enunciado>
   <opcionA>A veces es interesante conectar el back-rail directamente a internet</opcionA>
   <opcionB>El front-rail y el back-rail pueden cumplir la misma funcion</opcionB>
   <opcionC>Un servidor de BD puede ser conectado en el front-rail</opcionC>
@@ -63,7 +63,7 @@
 </pregunta>
 
 <pregunta>
-	<enunciado>¿Cual es la forma más segura de conectar una granja web a otras redes?</enunciado>
+	<enunciado>¿Cuál es la forma más segura de conectar una granja web a otras redes?</enunciado>
 	<opcionA>Configuración de DMZ doble.</opcionA>
 	<opcionB>Configuración sin DMZ</opcionB>
 	<opcionC>Configuración de DMZ simple</opcionC>
@@ -72,7 +72,7 @@
 </pregunta>
 
 <pregunta>
-  <enunciado>¿Con que elementos se podría formar un “Backbone”?</enunciado>
+  <enunciado>¿Con qué elementos se podría formar un “Backbone”?</enunciado>
   <opcionA>Un hub</opcionA>
   <opcionB>Un switch</opcionB>
   <opcionC>Un router</opcionC>
@@ -81,7 +81,7 @@
 </pregunta>
 
 <pregunta>
-  <enunciado>¿Para que servicio es ideal la configuración de DMZ doble?</enunciado>
+  <enunciado>¿Para qué servicio es ideal la configuración de DMZ doble?</enunciado>
   <opcionA>Una granja web</opcionA>
   <opcionB>Para una subred interna</opcionB>
   <opcionC>Un sistema operativo</opcionC>
@@ -90,7 +90,7 @@
 </pregunta>
 
 <pregunta>
-   <enunciado>¿Que es una zona desmilitarizada o DMZ ?.</enunciado>
+   <enunciado>¿Qué es una zona desmilitarizada o DMZ ?.</enunciado>
    <opcionA>Área restringida o aislada, y no controlada.</opcionA>
    <opcionB>Área restringida o aislada, y totalmente controlada.</opcionB>
    <opcionC>Área no restringida, y totalmente controlada. </opcionC>
@@ -126,7 +126,7 @@
 </pregunta>
 
 <pregunta>
-<enunciado>1. ¿Qué es Backbone?</enunciado>
+<enunciado>¿Qué es Backbone?</enunciado>
 <opcionA>Eje principal de enlace entre máquinas.</opcionA>
 <opcionB>Columna vertebral.</opcionB>
 <opcionC>Protocolo de seguridad web.</opcionC>
@@ -135,7 +135,7 @@
 </pregunta>
 
 <pregunta>
-<enunciado>2. La calidad de la conexión a internet depende de... </enunciado>
+<enunciado>La calidad de la conexión a internet depende de... </enunciado>
 <opcionA>No bloquear paquetes.</opcionA>
 <opcionB>La zona donde nos encontremos.</opcionB>
 <opcionC>Calidad del servicio y ancho de banda, filtrado y bloqueo de paquetes, y network address translation.</opcionC>
@@ -153,7 +153,7 @@
 </pregunta>
 
 <pregunta>
-    <enunciado>¿Cual de los siguientes no es un problema de la configuración sin DMZ?</enunciado>
+    <enunciado>¿Cuál de los siguientes no es un problema de la configuración sin DMZ?</enunciado>
     <opcionA>Compartición del ancho de banda.</opcionA>
     <opcionB>Asegurar los servidores es más complicado.</opcionB>
     <opcionC>Los servidores están conectados directamente a Internet.</opcionC>
@@ -162,7 +162,7 @@
 </pregunta>
 
 <pregunta>
-    <enunciado>¿Cual de las siguientes configuraciones es más segura?</enunciado>
+    <enunciado>¿Cuál de las siguientes configuraciones es más segura?</enunciado>
     <opcionA>Configuración de DMZ doble.</opcionA>
     <opcionB>Configuración de DMZ tradicional.</opcionB>
     <opcionC>Configuración de DMZ simple.</opcionC>
@@ -200,30 +200,30 @@
 
 
 <pregunta>
- <enunciado>¿Cual de estas opciones es una desventaja clara una configuracón DMZ tradicional?</enunciado>
+ <enunciado>¿Cuál de estas opciones es una desventaja clara una configuración DMZ tradicional?</enunciado>
  <opcionA>el coste económico es demasiado alto.</opcionA>
  <opcionB>sobrecarga de paquetes con dirección al servidor web.</opcionB>
  <opcionC>duplicidad de cortafuegos.</opcionC>
  <opcionD>el cortafuegos es un posible cuello de botella.</opcionD>
- <solucion>B</solucion>
+ <solucion>D</solucion>
 </pregunta>
 
 <pregunta>
 	<enunciado> 
 		En la configuracion de una zona, 
-		¿que tipo de configuracion tiene el siguiente problema?: 
+		¿qué tipo de configuracion tiene el siguiente problema?: 
 		"Los servidores y maquinas tras el cortafuegos aun comparten
 		ancho de banda". 
 	</enunciado>
-	<opcionA> Configuracion sin DMZ.</opcionA>
-	<opcionB> Configuracion de DMZ simple.</opcionB>
-	<opcionC> Configuracion de DMZ tradicional. </opcionC>
-	<opcionD> Configuracion de DMZ doble. </opcionD>
+	<opcionA> Configuración sin DMZ.</opcionA>
+	<opcionB> Configuración de DMZ simple.</opcionB>
+	<opcionC> Configuración de DMZ tradicional. </opcionC>
+	<opcionD> Configuración de DMZ doble. </opcionD>
 	<solucion> B </solucion>
 </pregunta>
 
 <pregunta>
-	<enunciado> ¿De que factores depende la conexion a Internet para asegurar la calidad del servicio y la seguridad?</enunciado>
+	<enunciado> ¿De qué factores depende la conexión a Internet para asegurar la calidad del servicio y la seguridad?</enunciado>
 	<opcionA> Filtrado y bloqueo de paquetes. </opcionA>
 	<opcionB> Calidad del servicio y ancho de banda. </opcionB>
 	<opcionC> Network address translation (NAT). </opcionC>
@@ -232,7 +232,7 @@
 </pregunta>
 
 <pregunta>
-  <enunciado>¿Cual de las siguientes respuestas no pertenece al proceso de configurar la red de un sistema web?</enunciado>
+  <enunciado>¿Cuál de las siguientes respuestas no pertenece al proceso de configurar la red de un sistema web?</enunciado>
   <opcionA>Elegir el modelo de red más adecuado.</opcionA>
   <opcionB>Elegir el hardware.</opcionB>
   <opcionC>Estructurar la red aislando subredes.</opcionC>
@@ -240,7 +240,7 @@
   <solucion>D</solucion>
 </pregunta>
 <pregunta>
-  <enunciado>¿Cual de las siguientes no es una alternativa para conectar la granja web a otras redes?</enunciado>
+  <enunciado>¿Cuál de las siguientes no es una alternativa para conectar la granja web a otras redes?</enunciado>
   <opcionA>Configuración de DMZ simple.</opcionA>
   <opcionB>Configuración sin DMZ.</opcionB>
   <opcionC>Configuración WiFi.</opcionC>
@@ -266,16 +266,16 @@
 </pregunta>
 
 <pregunta>
-  <enunciado>¿Cual de las siguientes opciones se puede conseguir con "NAT"?</enunciado>
+  <enunciado>¿Cuál de las siguientes opciones se puede conseguir con "NAT"?</enunciado>
   <opcionA>Favorecer el servicio de base de datos</opcionA>
-  <opcionB>Ocultar las verdadesras IPs de los servidores ultimos</opcionB>
+  <opcionB>Ocultar las verdadesras IPs de los servidores últimos</opcionB>
   <opcionC>Mejorar la velocidad del servicio ofrecido</opcionC>
   <opcionD>Poder ofrecer varios servicios distintos a la vez</opcionD>
   <solucion>B</solucion>
 </pregunta>
 
 <pregunta>
-  <enunciado>De las siguientes configuraciones, ¿cual es la mas segura?</enunciado>
+  <enunciado>De las siguientes configuraciones, ¿cuál es la mas segura?</enunciado>
   <opcionA>DMZ tradicional</opcionA>
   <opcionB>DMZ simple</opcionB>
   <opcionC>DMZ doble</opcionC>
@@ -284,7 +284,7 @@
 </pregunta>
 
 <pregunta>
-  <enunciado>Cuál de las siguientes no es una alternativa para conectar la granja web a otras redes:</enunciado>
+  <enunciado>Cuál de las siguientes no es una alternativa para conectar la granja web a otras redes?</enunciado>
   <opcionA>Configuración sin DMZ</opcionA>
   <opcionB>Configuración de DMZ doble</opcionB>
   <opcionC>Configuración de DMZ simple</opcionC>
@@ -310,7 +310,7 @@
 </pregunta>
 
 <pregunta>
-<enunciado>¿Cuantos tipos de servidores existen?</enunciado>
+<enunciado>¿Cuántos tipos de servidores existen?</enunciado>
 <opcionA>Existe un tipo de servidor que es: Complejo-NIC</opcionA>
 <opcionB>Existen infinitos tipos de servidores.</opcionB>
 <opcionC>Existen dos tipos de servidores que son: Single-NIC y Multi-NIC</opcionC>
@@ -329,7 +329,7 @@
 </pregunta>
 
 <pregunta>
-	<enunciado>Existen varias alternativas para conectar la granja web a otras redes, ¿cual es mas segura?</enunciado>
+	<enunciado>Existen varias alternativas para conectar la granja web a otras redes, ¿cuál es más segura?</enunciado>
 	<opcionA>Configuración de DMZ simple.</opcionA>
 	<opcionB>Configuración de DMZ tradicional.</opcionB>
 	<opcionC>Configuración de DMZ doble.</opcionC>
@@ -337,7 +337,7 @@
 	<solucion>C</solucion>
 </pregunta>
 <pregunta>
-	<enunciado>¿Que es un Backbone?</enunciado>
+	<enunciado>¿Qué es un Backbone?</enunciado>
 	<opcionA>Comunicaciones entre servidores y redes.</opcionA>
 	<opcionB>Un switch.</opcionB>
 	<opcionC>Un router.</opcionC>
@@ -372,7 +372,7 @@
   <solucion>D</solucion>
 </pregunta>
 <pregunta>
-  <enunciado>¿Cual es la alternativa más segura para conectar la granja web a otras redes?</enunciado>
+  <enunciado>¿Cuál es la alternativa más segura para conectar la granja web a otras redes?</enunciado>
   <opcionA>Configuración de DMZ simple.</opcionA>
   <opcionB>Configuración de DMZ tradicional.</opcionB>
   <opcionC>Configuración de DMZ doble.</opcionC>
@@ -381,16 +381,16 @@
 </pregunta>
 
 <pregunta>
-  <enunciado>¿Cuales de estos problemas podrian darse al tener configurado un DMZ simple?</enunciado>
+  <enunciado>¿Cuáles de estos problemas podrían darse al tener configurado un DMZ simple?</enunciado>
   <opcionA>El DMZ son los padres</opcionA>
-  <opcionB>No existe ningun problema</opcionB>
+  <opcionB>No existe ningún problema</opcionB>
   <opcionC>El cortafuegos puede ser un cuello de botella</opcionC>
   <opcionD>Compartir el ancho de banda</opcionD>
   <solucion>C</solucion>
 </pregunta>
 
 <pregunta>
-  <enunciado>¿De que manera se consigue la configuración más segura?</enunciado>
+  <enunciado>¿De qué manera se consigue la configuración más segura?</enunciado>
   <opcionA>Con los servidores expuestos a Internet</opcionA>
   <opcionB>Con un cortafuegos que gestione Internet, DMZ y la red corporativa</opcionB>
   <opcionC>Sin DMZ es lo más seguro </opcionC>
@@ -399,7 +399,7 @@
 </pregunta>
 
 <pregunta>
-  <enunciado>1. ¿Qué es el backbone? </enunciado>
+  <enunciado>¿Qué es el backbone? </enunciado>
   <opcionA>El hueso de atrás de las máquinas</opcionA>
   <opcionB>El eje principal de enlace entre máquinas</opcionB>
   <opcionC>La zona DMZ entre máquinas</opcionC>
@@ -408,7 +408,7 @@
 </pregunta>
 
 <pregunta>
-  <enunciado>2. ¿Qué DMZ configurarias en caso de que quisieras obtener la mejor configuración? </enunciado>
+  <enunciado>¿Qué DMZ configurarias en caso de que quisieras obtener la mejor configuración? </enunciado>
   <opcionA>Sin DMZ</opcionA>
   <opcionB>DMZ simple</opcionB>
   <opcionC>DMZ tradicional</opcionC>
@@ -434,7 +434,7 @@
 </pregunta>
 
 <pregunta>
-  <enunciado>¿Que significa BlackBone?</enunciado>
+  <enunciado>¿Qué significa BackBone?</enunciado>
   <opcionA>Es un Framework de JavaScript.</opcionA>
   <opcionB>Es el eje principal de enlace entre máquinas.</opcionB>
   <opcionC>Es una zona restringida y totalmente controlada.</opcionC>
@@ -453,14 +453,14 @@
 
 <pregunta>
   <enunciado>Señale la respuesta correcta</enunciado>
-  <opcionA>Una DMZ doble es mas sencilla de configurar, mas segura y da mejor rendimineto.</opcionA>
-  <opcionB>Una DMZ simple es la solución mas óptima para grandes empresas.</opcionB>
+  <opcionA>Una DMZ doble es más sencilla de configurar, mas segura y da mejor rendimineto.</opcionA>
+  <opcionB>Una DMZ simple es la solución más óptima para grandes empresas.</opcionB>
   <opcionC>Desde la entrada de españa en la OTAN no tiene sentido configurar una DMZ.</opcionC>
   <opcionD>El Front-Rail es el tiempo mínimo de respuesta de un servidor.</opcionD>
   <solucion>A</solucion>
 </pregunta>
 <pregunta>
-  <enunciado>Cuantas tarjetas de red necesitamos en una DMZ doble para conectar servicios al front y al back-rail simultaneamente</enunciado>
+  <enunciado>¿Cuántas tarjetas de red necesitamos en una DMZ doble para conectar servicios al front y al back-rail simultáneamente?</enunciado>
   <opcionA>1</opcionA>
   <opcionB>2</opcionB>
   <opcionC>3</opcionC>
@@ -489,7 +489,7 @@
 </pregunta>
 
 <pregunta>
-  <enunciado>¿Cuantas alternativas para conectar una granja web a otras redes hay?</enunciado>
+  <enunciado>¿Cuántas alternativas para conectar una granja web a otras redes hay?</enunciado>
   <opcionA>sin DMZ, DMZ simple, DMZ tradicional y DMZ doble	.</opcionA>
   <opcionB>DMZ simple y DMZ doble.</opcionB>
   <opcionC>DMZ simple, DMZ tradicional y DMZ doble.</opcionC>
@@ -498,7 +498,7 @@
 </pregunta>
 
 <pregunta>
-  <enunciado>En las alternativas para conectar una granja web a otras redes, ¿En cual de ellas los servidores están conectados directamente a Internet?</enunciado>
+  <enunciado>En las alternativas para conectar una granja web a otras redes, ¿En cuál de ellas los servidores están conectados directamente a Internet?</enunciado>
   <opcionA>Configuración sin DMZ.</opcionA>
   <opcionB>Configuración DMZ simple.</opcionB>
   <opcionC>Configuración DMZ tradicional.</opcionC>
