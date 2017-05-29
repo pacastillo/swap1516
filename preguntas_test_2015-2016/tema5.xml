@@ -105,7 +105,7 @@ determinar los tiempos de respuesta que tendrán los usuarios.</opcionC>
 </pregunta>
 
 <pregunta>
-    <enunciado>¿Cual de los siguientes tipos de trafico genera más conexiones por segundo?</enunciado>
+    <enunciado>¿Cuál de los siguientes tipos de tráfico genera más conexiones por segundo?</enunciado>
     <opcionA>HTTP.</opcionA>
     <opcionB>FTP.</opcionB>
     <opcionC>Streaming.</opcionC>
@@ -114,7 +114,7 @@ determinar los tiempos de respuesta que tendrán los usuarios.</opcionC>
 </pregunta>
 
 <pregunta>
-  <enunciado>¿que  herramientas no se usan para comprobar el rendimiento de los servidores web?:</enunciado>
+  <enunciado>¿Qué herramienta no se usa para comprobar el rendimiento de los servidores web?</enunciado>
   <opcionA>httperf</opcionA>
   <opcionB>openWebLoad</opcionB>
   <opcionC>blender</opcionC>
@@ -123,8 +123,8 @@ determinar los tiempos de respuesta que tendrán los usuarios.</opcionC>
 </pregunta>
 
 <pregunta>
-  <enunciado>¿ Cual es son  las métricas  que no hemos utilizado  
-  para medir las prestaciones de los dispositivos de balanceo?:</enunciado>
+  <enunciado>¿Cuál es las métrica que no hemos utilizado  
+  para medir las prestaciones de los dispositivos de balanceo?</enunciado>
   <opcionA>bits por segundos</opcionA>
   <opcionB>conexiones por segundo</opcionB>
   <opcionC>yottaFLOPS</opcionC>
@@ -133,7 +133,7 @@ determinar los tiempos de respuesta que tendrán los usuarios.</opcionC>
 </pregunta>
 
 <pregunta>
- <enunciado>¿En que tipo de benchmark se genera actividad creciente hasta detectar el punto de saturación?</enunciado>
+ <enunciado>¿En qué tipo de benchmark se genera actividad creciente hasta detectar el punto de saturación?</enunciado>
  <opcionA>Carga (Load).</opcionA>
  <opcionB>Estabilidad (Stability).</opcionB>
  <opcionC>Capacity (Capacidad).</opcionC>
@@ -144,18 +144,18 @@ determinar los tiempos de respuesta que tendrán los usuarios.</opcionC>
 
 
 <pregunta>
- <enunciado>¿Cual de estas herramientas NO es un benchmark del rendimiento de servidores?</enunciado>
+ <enunciado>¿Cuál de estas herramientas NO es un benchmark del rendimiento de servidores?</enunciado>
  <opcionA>Apache Benchmark.</opcionA>
  <opcionB>httperf</opcionB>
  <opcionC>OpenWebLoad</opcionC>
  <opcionD>BenchLoad</opcionD>
- <solucion></solucion>
+ <solucion>D</solucion>
 </pregunta>
 
 <pregunta>
   <enunciado> 
-     ¿Cual de las siguientes afirmaciones correponde al tipo de tráfico "tienda web"? </enunciado>
-  <opcionA> El numero de conexiones para este tipo de tráfico es muy bajo comparado con la cantidad de información enviada. </opcionA>
+     ¿Cuál de las siguientes afirmaciones correponde al tipo de tráfico "tienda web"? </enunciado>
+  <opcionA> El número de conexiones para este tipo de tráfico es muy bajo comparado con la cantidad de información enviada. </opcionA>
   <opcionB> Consume ancho de banda intensivamente y genera muchas conexiones por segundo. </opcionB>
   <opcionC> No se necesita un alto ancho de banda ni hay demasiadas conexiones por segundo. </opcionC>
   <opcionD> Consume el ancho de banda máximo rápidamente. </opcionD>
@@ -175,7 +175,7 @@ determinar los tiempos de respuesta que tendrán los usuarios.</opcionC>
 </pregunta>
 
 <pregunta>
-  <enunciado>¿Cuáles de estas opciones no influyen en la cantidad de sesiones de usuario TCP que puede manejar el balanceador al mismo tiempo?</enunciado>
+  <enunciado>¿Cuál de las siguientes opciones no influye en la cantidad de sesiones de usuario TCP que puede manejar el balanceador al mismo tiempo?</enunciado>
   <opcionA>Memoria.</opcionA>
   <opcionB>Procesador.</opcionB>
   <opcionC>Alimentación.</opcionC>
@@ -231,10 +231,10 @@ determinar los tiempos de respuesta que tendrán los usuarios.</opcionC>
 </pregunta>
 
 <pregunta>
-  <enunciado>Cual es la métrica mas importante de los siguientes patrones de tráfico HTTP y FTP?</enunciado>
-  <opcionA>HTTP seria "total de conexiones concurrentes"; FTP seria "rendimiento"</opcionA>
-  <opcionB>FTP seria "rendimiento"; HTTP seria "conexiones por segundo"</opcionB>
-  <opcionC>HTTP seria "rendimiento"; FTP seria "conexiones por segundo"</opcionC>
+  <enunciado>¿Cuál es la métrica más importante de los siguientes patrones de tráfico HTTP y FTP?</enunciado>
+  <opcionA>HTTP sería "total de conexiones concurrentes"; FTP sería "rendimiento"</opcionA>
+  <opcionB>FTP sería "rendimiento"; HTTP sería "conexiones por segundo"</opcionB>
+  <opcionC>HTTP sería "rendimiento"; FTP sería "conexiones por segundo"</opcionC>
   <opcionD>Ninguna de las opciones son correctas</opcionD>
   <solucion>B</solucion>
 </pregunta>
@@ -242,14 +242,14 @@ determinar los tiempos de respuesta que tendrán los usuarios.</opcionC>
 <pregunta>
   <enunciado>¿Qué limita el número de conexiones concurrentes en un dispositivo?</enunciado>
   <opcionA>Las conexiones por segundo</opcionA>
-  <opcionB>El numero de conexiones concurrentes no tiene limites</opcionB>
+  <opcionB>El número de conexiones concurrentes no tiene limites</opcionB>
   <opcionC>Las conexiones por segundo</opcionC>
   <opcionD>La memoria o el procesador del dispositivo</opcionD>
   <solucion>D</solucion>
 </pregunta>
 
 <pregunta>
-  <enunciado>¿Qué tipos de tráfico exinten en un balanceador?</enunciado>
+  <enunciado>¿Qué tipos de tráfico existen en un balanceador?</enunciado>
   <opcionA>HTTP y tienda web</opcionA>
   <opcionB>FTP o streaming</opcionB>
   <opcionC>HTTP y FTP</opcionC>
@@ -267,7 +267,7 @@ determinar los tiempos de respuesta que tendrán los usuarios.</opcionC>
 </pregunta>
 
 <pregunta>
-  <enunciado>El trafico HTTP es lo que...</enunciado>
+  <enunciado>El tráfico HTTP es lo que...</enunciado>
   <opcionA>Tras una conexión inicial (ya que usa UDP como protocolo), se envía una gran cantidad de información.</opcionA>
   <opcionB>La velocidad es el factor más importante.</opcionB>
   <opcionC>No se necesita un alto ancho de banda ni hay demasiadas conexiones por segundo.</opcionC>
@@ -328,7 +328,7 @@ determinar los tiempos de respuesta que tendrán los usuarios.</opcionC>
 </pregunta>
 
 <pregunta> 
-<enunciado>Indique con que herramienta podemos comprobar el rendimiento de un servidor web</enunciado> 
+<enunciado>Indique con qué herramienta podemos comprobar el rendimiento de un servidor web</enunciado> 
 <opcionA>Con Opensat</opcionA> 
 <opcionB>Con Jmeter</opcionB> 
 <opcionC>Con Open webload</opcionC> 
@@ -337,7 +337,7 @@ determinar los tiempos de respuesta que tendrán los usuarios.</opcionC>
 </pregunta> 
 
 <pregunta> 
-<enunciado>Indique las principales metricas usadas para las prestaciones</enunciado> 
+<enunciado>Indique las principales métricas usadas para las prestaciones</enunciado> 
 <opcionA>Conexiones por minuto, Conexiones asociativas y Rendimiento</opcionA> 
 <opcionB>Conexiones por segundo, Conexiones de entrada, Conexiones de salida</opcionB> 
 <opcionC>Conexiones por segundo, Total conexiones concurrentes, Rendimiento</opcionC> 
@@ -355,7 +355,7 @@ determinar los tiempos de respuesta que tendrán los usuarios.</opcionC>
 </pregunta>
 
 <pregunta>
-  <enunciado> ¿Cual de las siguientes no es un tipo de prueba en un benchmark? </enunciado>
+  <enunciado> ¿Cuál de las siguientes no es un tipo de prueba en un benchmark? </enunciado>
   <opcionA> Humo. </opcionA>
   <opcionB> Capacitación. </opcionB>
   <opcionC> Carga. </opcionC>
@@ -418,7 +418,7 @@ de capacidad, de estrés, etc.</opcionD>
 </pregunta>
 
 <pregunta>
-  <enunciado>¿Para que sirve Apache Benchmark?</enunciado>
+  <enunciado>¿Para qué sirve Apache Benchmark?</enunciado>
   <opcionA>Permite comprobar el rendimiento de cualquier servidor.</opcionA>
   <opcionB>Para analizar el PC.</opcionB>
   <opcionC>Simula con total fidelidad el uso del sitio web que pueden hacer los usuarios.</opcionC>
@@ -426,7 +426,7 @@ de capacidad, de estrés, etc.</opcionD>
   <solucion>A</solucion>
 </pregunta>
 <pregunta>
-  <enunciado>¿Que es httperf?</enunciado>
+  <enunciado>¿Qué es httperf?</enunciado>
   <opcionA>Un software de contabilidad.</opcionA>
   <opcionB>Un switch.</opcionB>
   <opcionC>Un antivirus.</opcionC>
@@ -461,7 +461,7 @@ de capacidad, de estrés, etc.</opcionD>
   <solucion>D</solucion>
 </pregunta>
 <pregunta>
-  <enunciado>Que métrica seria más importante para una tienda web:</enunciado>
+  <enunciado>Que métrica sería más importante para una tienda web:</enunciado>
   <opcionA>Conexiones por segundo.</opcionA>
   <opcionB>Rendimiento.</opcionB>
   <opcionC>Total de conexiones concurrentes.</opcionC>
@@ -470,7 +470,7 @@ de capacidad, de estrés, etc.</opcionD>
 </pregunta>
 
 <pregunta>
-  <enunciado>¿Cual de ellos es una limitación de los test que miden prestaciones?</enunciado>
+  <enunciado>¿Cuál de ellos es una limitación de los test que miden prestaciones?</enunciado>
   <opcionA>No se puede simular el comportamiento de los usuarios</opcionA>
   <opcionB>Detectar posibles cuellos de botella</opcionB>
   <opcionC>Descubrir problemas de rendimiento</opcionC>
@@ -479,7 +479,7 @@ de capacidad, de estrés, etc.</opcionD>
 </pregunta>
 
 <pregunta>
-  <enunciado>¿Cual no es una métrica para medir las prestaciones?</enunciado>
+  <enunciado>¿Cuál no es una métrica para medir las prestaciones?</enunciado>
   <opcionA>Conexiones por segundo</opcionA>
   <opcionB>Número toral de conexiones concurrentes</opcionB>
   <opcionC>Streaming</opcionC>
@@ -593,7 +593,7 @@ de capacidad, de estrés, etc.</opcionD>
   <solucion>B</solucion>
 </pregunta>
 <pregunta>
-  <enunciado>¿Cuales de los siguientes Benchmark pide la misma página repetidamente?</enunciado>
+  <enunciado>¿Cuál de los siguientes Benchmark pide la misma página repetidamente?</enunciado>
   <opcionA>ab.</opcionA>
   <opcionB>httperf.</opcionB>
   <opcionC>OpenWebLoad.</opcionC>
@@ -621,7 +621,7 @@ de capacidad, de estrés, etc.</opcionD>
 
 
 <pregunta>
-  <enunciado>¿En que consiste la prueba realizada a los servidores Stress? </enunciado>
+  <enunciado>¿En qué consiste la prueba realizada a los servidores Stress? </enunciado>
   <opcionA>Pruebas preliminares para comprobar que el sistema esta listo para los siguientes test</opcionA>
   <opcionB>Actividad creciente hasta detectar el punto de saturacion</opcionB>
   <opcionC>Para analizar el efecto de aplicar de forma continuada una carga por encima de la capacidad del sistema</opcionC>
