@@ -2,7 +2,7 @@
 <tema titulo="Tema 7: Almacenamiento de datos" cantidad_preguntas="15">
 
 <pregunta>
-   <enunciado>¿ Que es RAID?</enunciado>
+   <enunciado>¿Qué es RAID?</enunciado>
    <opcionA>RAID (conjunto redundante de discos independientes) esun sistema de almacenamiento que usa múltiples discos duros entre los que se distribuyen o replican los datos. </opcionA>
    <opcionB>Es un tipo de dispositivo de almacenamiento de datos que utiliza memoria no volátil, como la memoria flash, para almacenar datos, en lugar de los platos o discos magnéticos de las unidades de discos duros (HDD) convencionales.</opcionB>
    <opcionC>Control del tráfico de red a nivel de protocolo de red(TCP o UDP)  es el dispositivo de almacenamiento de datos que emplea un sistema de grabación magnética para almacenar archivos digitales.</opcionC>
@@ -20,7 +20,7 @@
  </pregunta>
 
  <pregunta>
-<enunciado>1. ¿A que se refiere la ampliación vertical? </enunciado>
+<enunciado>¿A qué se refiere la ampliación vertical? </enunciado>
 <opcionA>Replicar el almacenamiento entre varios servidores.</opcionA>
 <opcionB>Ampliar el espacio vertical.</opcionB>
 <opcionC>Adquirir una mejora hardware más rápido y actualizado.</opcionC>
@@ -38,7 +38,7 @@
 </pregunta>
 
 <pregunta>
-   <enunciado>Que RAID se suele usar para bases de datos de alta prestaciones?</enunciado>
+   <enunciado>¿Qué RAID se suele usar para bases de datos de alta prestaciones?</enunciado>
    <opcionA>RAID 5</opcionA>
    <opcionB>RAID 6</opcionB>
    <opcionC>RAID 10</opcionC>
@@ -46,7 +46,7 @@
    <solucion>C</solucion>
 </pregunta>
 <pregunta>
-   <enunciado>Cual de estas no es una caracteristica de los discos RAID?</enunciado>
+   <enunciado>¿Cuál de estas no es una caracteristica de los discos RAID?</enunciado>
    <opcionA>No facilita mover datos a un sistema nuevo</opcionA>
    <opcionB>Protege los datos</opcionB>
    <opcionC>No simplifica la recuperacion de un disastre</opcionC>
@@ -54,7 +54,7 @@
    <solucion>B</solucion>
 </pregunta>
 <pregunta>
-   <enunciado>Cual de las siguientes es una propriedad de los RAID 1?</enunciado>
+   <enunciado>¿Cuál de las siguientes es una propriedad de los RAID 1?</enunciado>
    <opcionA>Permite hacer backup sobre un disco inactivo secundario mientras que el primero sigue dando servicio</opcionA>
    <opcionB>Usa division a nivel de bloques</opcionB>
    <opcionC>Protege los datos antes virus</opcionC>
@@ -81,7 +81,7 @@
 </pregunta>
 
 <pregunta>
-  <enunciado>¿De las siguientes opciones que puede hacer RAID?</enunciado>
+  <enunciado>¿De las siguientes opciones, qué puede hacer RAID?</enunciado>
   <opcionA>Proteger los datos</opcionA>
   <opcionB>Simplifica la recuperación de un desastre</opcionB>
   <opcionC>Acceder a los datos aunque falle un disco</opcionC>
@@ -90,7 +90,7 @@
 </pregunta>
 
 <pregunta>
-  <enunciado>¿Cuales no son tan eficientes en operaciones de escritura?</enunciado>
+  <enunciado>¿Cuáles no son tan eficientes en operaciones de escritura?</enunciado>
   <opcionA>RAID0, RAID1 Y RAID2</opcionA>
   <opcionB>RAID4, RAID5 Y RAID6</opcionB>
   <opcionC>RAID4, RAID1, RAID10 Y RAID5</opcionC>

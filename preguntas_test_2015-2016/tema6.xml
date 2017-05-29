@@ -20,7 +20,7 @@
 </pregunta>
 
 <pregunta>
-   <enunciado>¿ Cual de estas funciones no realiza el cortafuegos ?</enunciado>
+   <enunciado>¿Cuál de estas funciones no realiza el cortafuegos ?</enunciado>
    <opcionA>Bloquear y filtrar paquetes </opcionA>
    <opcionB>Detectar y eliminar virus</opcionB>
    <opcionC>Control del tráfico de red a nivel de protocolo de red(TCP o UDP) </opcionC>
@@ -38,7 +38,7 @@
  </pregunta>
 
  <pregunta>
-<enunciado>1.¿A qué nos referimos con Integridad cuando hablamos de asegurar el sistema web? </enunciado>
+<enunciado>¿A qué nos referimos con Integridad cuando hablamos de asegurar el sistema web? </enunciado>
 <opcionA>Los mensajes enviados deben ser exactamente los recibidos.</opcionA>
 <opcionB>Las comunicaciones deben ser secretas.</opcionB>
 <opcionC>La comunicación debe estar disponibleen el momento que se requiera.</opcionC>
@@ -47,7 +47,7 @@
 </pregunta>
 
 <pregunta>
-<enunciado>2.¿Cuál es la función de usar un cortafuegos?</enunciado>
+<enunciado>¿Cuál es la función de usar un cortafuegos?</enunciado>
 <opcionA>Ninguna.</opcionA>
 <opcionB>Proteger el sistema de accesos indebidos.</opcionB>
 <opcionC>Parar las llamas cuando el ordenador se caliente demasiado.</opcionC>
@@ -56,15 +56,15 @@
 </pregunta>
 
 <pregunta>
-    <enunciado>Cual es la mejor manera para asegurar seguridad a nivel de administracion?</enunciado>
+    <enunciado>¿Cuál es la mejor manera para asegurar seguridad a nivel de administrador?</enunciado>
     <opcionA>tener ninguna cuenta de administrador</opcionA>
     <opcionB>tener mas cuentas de administrador con diferentes tareas</opcionB>
     <opcionC>acceder de VPN</opcionC>
     <opcionD>tener cuentas de servicios</opcionD>
-    <solucion>C</solucion>
+    <solucion>D</solucion>
 </pregunta>
 <pregunta>
-    <enunciado>Porque serìa mejor tener un sistema de proteccion de mas niveles?</enunciado>
+    <enunciado>¿Por qué sería mejor tener un sistema de protección con varios niveles?</enunciado>
     <opcionA>Para complicarle la tarea de acceder a los datos a un hacker y para detectarle en tiempo</opcionA>
     <opcionB>Para que se aproveche mejor la arquitectura escalable de los servidores</opcionB>
     <opcionC>Para que la tarea de asegurar proteccion se pueda compartir entre mas personas</opcionC>
@@ -72,7 +72,7 @@
     <solucion>A</solucion>
 </pregunta>
 <pregunta>
-    <enunciado>Cual de los siguientes no se usa para seguridad a nivel fisico?</enunciado>
+    <enunciado>¿Cuál de los siguientes no se usa para seguridad a nivel físico?</enunciado>
     <opcionA>Cerradura de seguridad al sitio de ubicacion de servidores</opcionA>
     <opcionB>Vigilancia mediante CCTV</opcionB>
     <opcionC>Contraseñas de BIOS y consola</opcionC>
@@ -82,13 +82,13 @@
 <pregunta>
     <enunciado>Una cuenta de administrador representa un fallo de seguridad si:</enunciado>
     <opcionA>se renombra y se cambia la contraseña</opcionA>
-    <opcionB>al cambiar de administrador fisico, no se actualizan el sistema operativo</opcionB>
+    <opcionB>al cambiar de administrador físico, no se actualizan el sistema operativo</opcionB>
     <opcionC>se ejecutan servicios como root o superusuario</opcionC>
     <opcionD>se disfruta de un sistema da autenticacion en dos etapas (como con codigo por SMS o aplicacion)</opcionD>
     <solucion>C</solucion>
 </pregunta>
 <pregunta>
-    <enunciado>Cual seria la mejor configuracion por defecto de un cortafuego por iptable?</enunciado>
+    <enunciado>¿Cuál seria la mejor configuracion por defecto de un cortafuego por iptables?</enunciado>
     <opcionA>denegar todas las comunicacciones (INPUT/OUTPUT/FORWARD DROP) y luego abrir puertos especificos</opcionA>
     <opcionB>Permitir todas las comunicaciones (INPUT/OUTPUT/FORWARD DROP) y luego cerrar los puertos no deseados</opcionB>
     <opcionC>Permitir PING a todas las maquinas de la granja</opcionC>
@@ -106,7 +106,7 @@
 </pregunta>
 
 <pregunta>
-  <enunciado>¿Cual de los siguientes no es un objetivo de seguridad?</enunciado>
+  <enunciado>¿Cuál de los siguientes no es un objetivo de seguridad?</enunciado>
   <opcionA>Integridad</opcionA>
   <opcionB>Confidencialidad</opcionB>
   <opcionC>Disponibilidad</opcionC>
@@ -188,7 +188,7 @@
 </pregunta>
 
 <pregunta>
-	<enunciado>¿de que protege el cortafuegos?</enunciado>
+	<enunciado>¿de qué protege el cortafuegos?</enunciado>
 	<opcionA>De accesos al sistema operativo.</opcionA>
 	<opcionB>De incendios en la red.</opcionB>
 	<opcionC>De accesos indebidos.</opcionC>
@@ -197,7 +197,7 @@
 </pregunta>
 
 <pregunta>
-	<enunciado>¿Para que sirve un cortafuegos?</enunciado>
+	<enunciado>¿Para qué sirve un cortafuegos?</enunciado>
 	<opcionA>Todas son correctas.</opcionA>
 	<opcionB>No hay ninguna correcta.</opcionB>
 	<opcionC>Un cortafuegos protege el sistema de accesos indebidos.</opcionC>
@@ -205,7 +205,7 @@
 	<solucion>C</solucion>
 </pregunta>
 <pregunta>
-	<enunciado>¿Que funciones realiza el cortafuegos?</enunciado>
+	<enunciado>¿Qué funciones realiza el cortafuegos?</enunciado>
 	<opcionA>Las respuesta C y D son correctas.</opcionA>
 	<opcionB>Vaciar la papelera.</opcionB>
 	<opcionC>Ocultar la verdadera dirección del servidor, actuando como un proxy.</opcionC>
@@ -232,7 +232,7 @@
 </pregunta>
 
 <pregunta>
-  <enunciado>Cual de estos no es un objetivo de seguridad:</enunciado>
+  <enunciado>¿Cuál de estos no es un objetivo de seguridad?</enunciado>
   <opcionA>Confidencialidad.</opcionA>
   <opcionB>Integridad.</opcionB>
   <opcionC>Rendimiento.</opcionC>
@@ -249,7 +249,7 @@
 </pregunta>
 
 <pregunta>
-  <enunciado>¿En que concepto no se basa los objetivos de seguridad?</enunciado>
+  <enunciado>¿En qué concepto no se basa los objetivos de seguridad?</enunciado>
   <opcionA>Confidencialidad</opcionA>
   <opcionB>Integridad</opcionB>
   <opcionC>Phishing</opcionC>
@@ -258,7 +258,7 @@
 </pregunta>
 
 <pregunta>
-  <enunciado>¿Cuales de estas políticas se usan para acceder a los recursos de forma segura?</enunciado>
+  <enunciado>¿Cuáles de estas políticas se usan para acceder a los recursos de forma segura?</enunciado>
   <opcionA>Seguridad a nivel físico</opcionA>
   <opcionB>Seguridad a nivel de red</opcionB>
   <opcionC>Seguridad a nivel de administrador</opcionC>
@@ -285,25 +285,7 @@
 </pregunta>
 
 <pregunta>
-  <enunciado>1. ¿Cuál de los siguientes software no es o no puede ser utilizado como herramienta para comprobar el rendimiento de un servidor web? </enunciado>
-  <opcionA>Apache Benchmark</opcionA>
-  <opcionB>httperf</opcionB>
-  <opcionC>OpenWebLoad</opcionC>
-  <opcionD>nginx</opcionD>
-  <solucion>D</solucion>
-</pregunta>
-
-<pregunta>
-  <enunciado>2. Uno de los siguientes no es un tipo de pruebas para comprobar el rendimiento del servidor. ¿Cuál? </enunciado>
-  <opcionA>Overload(Sobrecarga)</opcionA>
-  <opcionB>Smoke(Humo)</opcionB>
-  <opcionC>Sub-Zero(Congelación)</opcionC>
-  <opcionD>Stability(Estabilidad) </opcionD>
-  <solucion>C</solucion>
-</pregunta>
-
-<pregunta>
-   <enunciado>De cual de las siguientes tareas no se encarga un cortafuegos:</enunciado>
+   <enunciado>De cuál de las siguientes tareas no se encarga un cortafuegos:</enunciado>
    <opcionA>Bloquear y filtrar paquetes</opcionA>
    <opcionB>Controlar protocolos de aplicación</opcionB>
    <opcionC>Proteger los servidores y aplicaciones de ataques</opcionC>
@@ -347,7 +329,7 @@
   <solucion>D</solucion>
 </pregunta>
 <pregunta>
-  <enunciado>¿Cual no es un nivel de políticas de seguridad?</enunciado>
+  <enunciado>¿Cuál no es un nivel de políticas de seguridad?</enunciado>
   <opcionA>Seguridad a nivel físico .</opcionA>
   <opcionB>Seguridad a nivel de red .</opcionB>
   <opcionC>Seguridad a nivel de administrador .</opcionC>
