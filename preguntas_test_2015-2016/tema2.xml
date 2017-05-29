@@ -237,7 +237,7 @@
   <opcionB>2</opcionB>
   <opcionC>3</opcionC>
   <opcionD>4</opcionD>
-  <solucion>1</solucion>
+  <solucion>A</solucion>
 </pregunta>
 
 
@@ -259,7 +259,7 @@
   <solucion>A</solucion>
 </pregunta>
 <pregunta>
-  <enunciado>¿Que tipos de escalado existen?</enunciado>
+  <enunciado>¿Qué tipos de escalado existen?</enunciado>
   <opcionA>Ampliación vertical.</opcionA>
   <opcionB>Ampliación horizontal</opcionB>
   <opcionC>Ampliación diagonal</opcionC>
@@ -322,7 +322,7 @@
   <solucion>D</solucion>
 </pregunta>
 <pregunta>
-  <enunciado>¿Que diferencia existe entre escabilidad Vertical y Horizontal?</enunciado>
+  <enunciado>¿Qué diferencia existe entre escabilidad Vertical y Horizontal?</enunciado>
   <opcionA>La escabilidad Vertical es incrementar el hardware del servidor y escabilidad Horizontal es añadir máquinas a un subsistema de servidores.</opcionA>
   <opcionB>La escabilidad Horizontal es incrementar el hardware del servidor y escabilidad Vertical es añadir máquinas a un subsistema de servidores.</opcionB>
   <opcionC>No existe diferencia entre ambas porque es el mismo tipo de escabilidad</opcionC>
@@ -350,7 +350,7 @@
 </pregunta>
 
 <pregunta>
-	<enunciado>¿Que se entiende por alta disponibilidad?</enunciado>
+	<enunciado>¿Qué se entiende por alta disponibilidad?</enunciado>
 	<opcionA>Cuando un sitio no está disponible.</opcionA>
 	<opcionB>Todas son correctas.</opcionB>
 	<opcionC>Capacidad de aceptar visitas las 24h todos los días.</opcionC>
@@ -358,7 +358,7 @@
 	<solucion>C</solucion>
 </pregunta>
 <pregunta>
-	<enunciado>¿Que tipos de escalado hay?</enunciado>
+	<enunciado>¿Qué tipos de escalado hay?</enunciado>
 	<opcionA>Ampliación vertical.</opcionA>
 	<opcionB>Ampliación diagonal.</opcionB>
 	<opcionC>Ampliación horizontal.</opcionC>
@@ -367,7 +367,7 @@
 </pregunta>
 
 <pregunta>
-  <enunciado>¿Como se consigue mejorar la disponibilidad?</enunciado>
+  <enunciado>¿Cómo se consigue mejorar la disponibilidad?</enunciado>
   <opcionA>usando sistemas redundantes y monitorizandolos.</opcionA>
   <opcionB>si la disponibilidad es alta, bajar el ancho de banda.</opcionB>
   <opcionC>llamando a batman.</opcionC>
@@ -393,7 +393,7 @@
   <solucion>A</solucion>
 </pregunta>
 <pregunta>
-  <enunciado>¿Que hace un balanceador de carga?</enunciado>
+  <enunciado>¿Qué hace un balanceador de carga?</enunciado>
   <opcionA>Se encarga de bloquear el tráfico de red si el servidor esta sobrecargado.</opcionA>
   <opcionB>Hace que llegue menos tráfico de red al servidor.</opcionB>
   <opcionC>Reparte peticiones a los distintos servidores según el tráfico de la red.</opcionC>
@@ -402,7 +402,7 @@
 </pregunta>
 
 <pregunta>
-  <enunciado>¿De que depende el exito de una empresa?</enunciado>
+  <enunciado>¿De qué depende el éxito de una empresa?</enunciado>
   <opcionA>Tener un servidor de base de datos</opcionA>
   <opcionB>Tener una disponibilidad baja</opcionB>
   <opcionC>Que los usuarios tenga buena experiencia al visitarla (web)</opcionC>
@@ -420,7 +420,7 @@
 </pregunta>
 
 <pregunta>
-  <enunciado>1. ¿Qué significa disponibilidad? </enunciado>
+  <enunciado>¿Qué significa disponibilidad? </enunciado>
   <opcionA>Que el servidor acepte visitas 24/7</opcionA>
   <opcionB>Poder acceder al servidor desde cualquier parte</opcionB>
   <opcionC>Es la capacidad de un sistema de manejar la carga y el esfuerzo para adaptarse de nuevo </opcionC>
@@ -429,7 +429,7 @@
 </pregunta>
 
 <pregunta>
-  <enunciado>2. ¿Qué tipos de escalado existen? </enunciado>
+  <enunciado>¿Qué tipos de escalado existen? </enunciado>
   <opcionA>Norte y Sur, dependiendo de su localización</opcionA>
   <opcionB>Lento y Rápido, según lo que le cueste escalar</opcionB>
   <opcionC>Este y Oeste, dependiendo de su localización</opcionC>
@@ -455,13 +455,13 @@
 </pregunta>
 
 <pregunta>
-  <enunciado>Si poseemos un sistema con 3 servidores de un 99 por ciento de disponibilidad, ¿Cuanto podrá estar caido el sistema en total aproximadamente?
+  <enunciado>Si poseemos un sistema con 3 servidores de un 99 por ciento de disponibilidad, ¿Cuánto podrá estar caido el sistema en total aproximadamente?
   </enunciado>
   <opcionA>3 días.</opcionA>
   <opcionB>7 días.</opcionB>
   <opcionC>11 días.</opcionC>
   <opcionD>15 días.</opcionD>
-  <solucion>C</solucion>
+  <solucion>A</solucion>
 </pregunta>
 
 <pregunta>
