@@ -22,9 +22,9 @@
 <pregunta>
 <enunciado>Seleccione la incorrecta. Una granja web</enunciado>
 <opcionA>Son sistemas muy complejos, pero sumamente flexibles y funcionales</opcionA>
-<opcionB>Albergará un par de sitios web</opcionB>
-<opcionC>Es un conjunto de servidores dedicados a servir</opcionC>
-<opcionD>Todas son correctas</opcionD>
+<opcionB>Sólo puede albergar un sitio web</opcionB>
+<opcionC>Está formada por un conjunto de servidores</opcionC>
+<opcionD>La respuesta B es incorrecta</opcionD>
 <solucion>B</solucion>
 </pregunta>
 
@@ -160,12 +160,12 @@ web a los usuarios finales.</opcionD>
 </pregunta>
 
 <pregunta>
- <enunciado>Si ante un incremento del número de accesos a nuestro servidor, el hardware y software comienzan a dar fallos, tenemos un problema de:</enunciado>
+ <enunciado>Si el hardware y software comienzan a dar fallos, tendremos un problema de:</enunciado>
  <opcionA>carga del sistema</opcionA>
  <opcionB>viabilidad</opcionB>
  <opcionC>redundancia</opcionC>
  <opcionD>disponibilidad</opcionD>
- <solucion>A</solucion>
+ <solucion>D</solucion>
 </pregunta>
 
 
@@ -183,7 +183,7 @@ web a los usuarios finales.</opcionD>
 <pregunta>
 	<enunciado> Sobre una granja web, ¿que afirmación es correcta?</enunciado>
 	<opcionA> Es un unico servidor dedicado a servir contenido web. </opcionA>
-	<opcionB> Resuelven los problemas de sistemas mas simples para dar servicio a un alto número de usuarios. </opcionB>
+	<opcionB> Resuelven los problemas de sistemas más simples para dar servicio a un alto número de usuarios. </opcionB>
 	<opcionC> Sistemas simples pero sumamente flexibles y funcionales. </opcionC>
 	<opcionD> a y c son correctas</opcionD>
 	<solucion> B </solucion>

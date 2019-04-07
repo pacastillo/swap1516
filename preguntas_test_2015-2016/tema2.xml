@@ -243,11 +243,11 @@
 
 <pregunta>
   <enunciado>Escalabilidad vertical consiste en:</enunciado>
-  <opcionA>Incrementar la RAM, la CPU, disco de un servidor..</opcionA>
-  <opcionB>Incrementar la RAM, la CPU, disco de un servidor.. y además en añadir más máquinas a algún subsistema (servidores web, servidores de datos..) </opcionB>
-  <opcionC>Añadir más máquinas a algún subsistema (servidores web, servidores de datos..)</opcionC>
+  <opcionA>Incrementar la RAM, la CPU, disco de un servidor.</opcionA>
+  <opcionB>Incrementar la RAM, la CPU, disco de un servidor, y además en añadir más máquinas a algún subsistema (servidores web, servidores de datos.) </opcionB>
+  <opcionC>Añadir más máquinas a algún subsistema (servidores web, servidores de datos.)</opcionC>
   <opcionD>Ninguna de las anteriores</opcionD>
-  <solucion>C</solucion>
+  <solucion>A</solucion>
 </pregunta>
 
 <pregunta>
