@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tema titulo="Tema 2: Alta Disponibilidad y Escalabilidad" cantidad_preguntas="91">
+<tema titulo="Tema 2: Alta Disponibilidad y Escalabilidad" cantidad_preguntas="61">
 
 <pregunta>
   <enunciado>Un servidor esta caido durante 2354h al año, teniendo en cuenta que en un año hay 8760h, su disponibilidad es de un:</enunciado>
