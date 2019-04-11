@@ -102,7 +102,7 @@
 
 
 <pregunta>
-<enunciado>2.¿Qué diversos beneficios aporta el balancio de carga?</enunciado>
+<enunciado>2.¿Qué diversos beneficios aporta el balanceo de carga?</enunciado>
 <opcionA>Seguridad y calidad de servicio.</opcionA>
 <opcionB>Es bueno para la salud.</opcionB>
 <opcionC>Escalabilidad y flexibilidad.</opcionC>
@@ -331,7 +331,7 @@
 
 
 <pregunta>
-  <enunciado>El balancio de carga de un servidor mediante DNS: </enunciado>
+  <enunciado>El balanceo de carga de un servidor mediante DNS: </enunciado>
   <opcionA> Configura el DNS asignando IP diferentes para el mismo sitio. </opcionA>
   <opcionB> Reparte los recursos mediante una planificación por prioridad. </opcionB>
   <opcionC> Tienen información sobre la disponibilidad de las máquinas servidoras finales.</opcionC>
@@ -641,7 +641,7 @@
    <solucion>D</solucion>
 </pregunta>
 <pregunta>
-   <enunciado>Las venajas que ofrece un balanceador de carga son:</enunciado>
+   <enunciado>Las ventajas que ofrece un balanceador de carga son:</enunciado>
    <opcionA>Mejora la escalabilidad y la disponibilidad</opcionA>
    <opcionB>Facilita el mantenimiento</opcionB>
    <opcionC>Mejora la seguridad</opcionC>
